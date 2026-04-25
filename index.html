@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Buzzword</title>
+  <meta name="theme-color" content="#6366f1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Buzzword">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%236366f1' width='100' height='100' rx='20'/><text x='50' y='68' font-family='sans-serif' font-size='55' font-weight='bold' fill='white' text-anchor='middle'>B</text></svg>">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%236366f1' width='100' height='100' rx='20'/><text x='50' y='68' font-family='sans-serif' font-size='55' font-weight='bold' fill='white' text-anchor='middle'>B</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- HOME SCREEN -->
+  <div id="screen-home" class="screen active">
+    <div class="home-container">
+      <div class="logo-area">
+        <div class="logo-icon">B</div>
+        <h1 class="game-title">Buzzword</h1>
+        <p class="game-subtitle">The party game where every clue has one word in common</p>
+      </div>
+      <div class="home-buttons">
+        <button class="btn btn-primary btn-large" onclick="startSetup()">New Game</button>
+        <button class="btn btn-secondary" onclick="showScreen('screen-how')">How to Play</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- HOW TO PLAY -->
+  <div id="screen-how" class="screen">
+    <div class="screen-header">
+      <button class="btn-back" onclick="showScreen('screen-home')">← Back</button>
+      <h2>How to Play</h2>
+    </div>
+    <div class="how-content">
+      <div class="how-step">
+        <div class="how-number">1</div>
+        <div class="how-text">
+          <strong>Set Up Teams</strong>
+          <p>Add 2+ teams. Each team takes turns guessing.</p>
+        </div>
+      </div>
+      <div class="how-step">
+        <div class="how-number">2</div>
+        <div class="how-text">
+          <strong>Read the Clues</strong>
+          <p>A card shows a <em>Buzzword</em> at the top and 10 clues below. Each clue is a phrase with the Buzzword missing. Example: Buzzword is "HOT" → clue "___ dog" → answer "HOT dog".</p>
+        </div>
+      </div>
+      <div class="how-step">
+        <div class="how-number">3</div>
+        <div class="how-text">
+          <strong>Guess the Phrase</strong>
+          <p>The clue reader reads each clue aloud. Team members try to fill in the blank with the Buzzword. Each correct guess = 1 point.</p>
+        </div>
+      </div>
+      <div class="how-step">
+        <div class="how-number">4</div>
+        <div class="how-text">
+          <strong>Pass or Play</strong>
+          <p>Can't guess? Pass to move to the next clue. You can pass up to 3 times per round. Passed clues are worth 0 points.</p>
+        </div>
+      </div>
+      <div class="how-step">
+        <div class="how-number">5</div>
+        <div class="how-text">
+          <strong>Beat the Timer</strong>
+          <p>You have 45 seconds per round. Guess as many as you can before time runs out!</p>
+        </div>
+      </div>
+      <button class="btn btn-primary" onclick="showScreen('screen-home')">Got it!</button>
+    </div>
+  </div>
+
+  <!-- SETUP SCREEN -->
+  <div id="screen-setup" class="screen">
+    <div class="screen-header">
+      <button class="btn-back" onclick="showScreen('screen-home')">← Back</button>
+      <h2>Game Setup</h2>
+    </div>
+    <div class="setup-content">
+      <!-- Difficulty -->
+      <div class="setup-section">
+        <h3>Difficulty</h3>
+        <div class="difficulty-buttons">
+          <button class="btn btn-difficulty" data-difficulty="easy" onclick="selectDifficulty('easy')">
+            <span class="diff-label">Easy</span>
+            <span class="diff-desc">Everyday phrases</span>
+          </button>
+          <button class="btn btn-difficulty active" data-difficulty="medium" onclick="selectDifficulty('medium')">
+            <span class="diff-label">Medium</span>
+            <span class="diff-desc">Mix of familiar & tricky</span>
+          </button>
+          <button class="btn btn-difficulty" data-difficulty="hard" onclick="selectDifficulty('hard')">
+            <span class="diff-label">Hard</span>
+            <span class="diff-desc">Brain-busting phrases</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Categories -->
+      <div class="setup-section">
+        <div class="section-header-row">
+          <h3>Categories</h3>
+          <button class="btn btn-link" onclick="toggleAllCategories()">Deselect All</button>
+        </div>
+        <div id="category-toggles" class="category-toggles">
+          <!-- Filled by JS -->
+        </div>
+        <div class="card-count" id="card-count"></div>
+      </div>
+
+      <!-- Game Options -->
+      <div class="setup-section">
+        <h3>Options</h3>
+        <div class="option-toggles">
+          <div class="option-toggle active" id="toggle-timer" onclick="toggleOption('timer')">
+            <div class="toggle-switch"><div class="toggle-knob"></div></div>
+            <div class="toggle-info">
+              <span class="toggle-option-name">Timer</span>
+              <span class="toggle-option-desc" id="timer-desc">45 seconds per round</span>
+            </div>
+          </div>
+          <div class="time-selector" id="time-selector">
+            <button class="btn btn-time" data-time="30" onclick="selectTime(30)">30s</button>
+            <button class="btn btn-time active" data-time="45" onclick="selectTime(45)">45s</button>
+            <button class="btn btn-time" data-time="60" onclick="selectTime(60)">60s</button>
+            <button class="btn btn-time" data-time="90" onclick="selectTime(90)">90s</button>
+          </div>
+          <div class="option-toggle active" id="toggle-passes" onclick="toggleOption('passes')">
+            <div class="toggle-switch"><div class="toggle-knob"></div></div>
+            <div class="toggle-info">
+              <span class="toggle-option-name">Pass Limit</span>
+              <span class="toggle-option-desc">Max 3 passes per round</span>
+            </div>
+          </div>
+          <div class="option-row">
+            <span class="option-row-label">Play to</span>
+            <div class="score-selector">
+              <button class="btn btn-score" data-score="25" onclick="selectWinScore(25)">25</button>
+              <button class="btn btn-score active" data-score="50" onclick="selectWinScore(50)">50</button>
+              <button class="btn btn-score" data-score="75" onclick="selectWinScore(75)">75</button>
+              <button class="btn btn-score" data-score="100" onclick="selectWinScore(100)">100</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Teams -->
+      <div class="setup-section">
+        <h3>Teams</h3>
+        <div id="team-list" class="team-list">
+          <div class="team-entry" data-team-id="0">
+            <span class="team-color" style="background:#6366f1"></span>
+            <input type="text" class="team-name-input" value="Team 1" maxlength="20" placeholder="Team name">
+          </div>
+          <div class="team-entry" data-team-id="1">
+            <span class="team-color" style="background:#f43f5e"></span>
+            <input type="text" class="team-name-input" value="Team 2" maxlength="20" placeholder="Team name">
+          </div>
+        </div>
+        <button class="btn btn-secondary btn-small" onclick="addTeam()">+ Add Team</button>
+      </div>
+
+      <button class="btn btn-primary btn-large" onclick="startGame()">Start Game</button>
+    </div>
+  </div>
+
+  <!-- CARD PLAY SCREEN -->
+  <div id="screen-play" class="screen">
+    <div class="play-header">
+      <div class="play-header-top">
+        <div class="team-indicator" id="play-team-indicator">
+          <span class="team-dot" id="play-team-dot"></span>
+          <span id="play-team-name">Team 1</span>
+        </div>
+        <div class="score-badge" id="round-score-badge">0 pts</div>
+      </div>
+      <div class="timer-bar-container">
+        <div class="timer-bar" id="timer-bar"></div>
+      </div>
+      <div class="timer-display">
+        <span id="timer-seconds">45</span>s
+      </div>
+    </div>
+
+    <div class="buzzword-display">
+      <div class="buzzword-label">BUZZWORD</div>
+      <div class="buzzword-word" id="buzzword-word">HOT</div>
+    </div>
+
+    <div class="clues-area" id="clues-area">
+      <!-- Filled by JS -->
+    </div>
+
+    <div class="play-footer">
+      <div class="play-stats">
+        <span id="clue-counter">1 / 10</span>
+      </div>
+      <div class="play-actions">
+        <button class="btn btn-pass" onclick="passClue()">Pass</button>
+        <button class="btn btn-correct" onclick="correctClue()">✓ Correct</button>
+      </div>
+      <button class="btn btn-end-round" id="btn-end-round" onclick="endRound()" style="display:none">End Round</button>
+    </div>
+  </div>
+
+  <!-- ROUND SUMMARY -->
+  <div id="screen-round" class="screen">
+    <div class="screen-header">
+      <h2>Round Summary</h2>
+    </div>
+    <div class="round-summary-content">
+      <div class="round-team-score" id="round-team-score">
+        <span id="round-team-name">Team 1</span>
+        <span class="round-points" id="round-points">3 pts</span>
+      </div>
+      <div class="round-answers" id="round-answers">
+        <!-- Filled by JS -->
+      </div>
+      <div class="scoreboard" id="round-scoreboard">
+        <!-- Filled by JS -->
+      </div>
+      <button class="btn btn-secondary btn-small" onclick="showHistory()" style="margin-bottom:8px">View Round History</button>
+      <button class="btn btn-primary btn-large" id="round-next-btn" onclick="nextRound()">Next Round</button>
+    </div>
+  </div>
+
+  <!-- GAME OVER -->
+  <div id="screen-gameover" class="screen">
+    <div class="gameover-content">
+      <h2 class="gameover-title">Game Over!</h2>
+      <div class="winner-announcement" id="winner-announcement">
+        <!-- Filled by JS -->
+      </div>
+      <div class="final-scoreboard" id="final-scoreboard">
+        <!-- Filled by JS -->
+      </div>
+      <div class="gameover-buttons">
+        <button class="btn btn-primary btn-large" onclick="startSetup()">Play Again</button>
+        <button class="btn btn-secondary" onclick="showScreen('screen-home')">Home</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEAL OVERLAY -->
+  <div class="steal-overlay" id="steal-overlay" style="display:none">
+    <div class="steal-prompt">
+      <div class="steal-label">STEAL CHANCE!</div>
+      <div class="steal-team" id="steal-team-name">Team 2</div>
+      <div class="steal-clue" id="steal-clue-text"></div>
+      <div class="steal-buzzword" id="steal-buzzword"></div>
+      <div class="steal-actions">
+        <button class="btn btn-steal-miss" onclick="stealMiss()">Miss</button>
+        <button class="btn btn-steal-correct" onclick="stealCorrect()">Got it!</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ROUND HISTORY OVERLAY -->
+  <div class="history-overlay" id="history-overlay" style="display:none">
+    <div class="history-panel">
+      <div class="history-header">
+        <h3>Round History</h3>
+        <button class="btn btn-link" onclick="closeHistory()">Close</button>
+      </div>
+      <div class="history-list" id="history-list">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </div>
+
+  <script src="cards.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
