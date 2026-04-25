@@ -1,11 +1,13 @@
-const CACHE_NAME = 'buzzword-v1';
+const CACHE_NAME = 'buzzword-v2';
 const ASSETS = [
   './',
   './index.html',
   './styles.css',
   './app.js',
   './cards.js',
-  './manifest.json'
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 self.addEventListener('install', e => {
@@ -25,6 +27,13 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
+  // Serve index.html for navigation requests (SPA support)
+  if (e.request.mode === 'navigate') {
+    e.respondWith(
+      caches.match('./index.html').then(cached => cached || fetch(e.request))
+    );
+    return;
+  }
   e.respondWith(
     caches.match(e.request).then(cached => cached || fetch(e.request))
   );
