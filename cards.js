@@ -32,7 +32,7 @@ const CARDS = [
       { easy: "Person who sets up the illumination on a movie set", medium: "Film crew illumination specialist", hard: "Glow director", answer: "Lighting technician" },
       { easy: "Delicate and airy dessert that puffs up in the oven", medium: "Airy baked treat", hard: "Puffy whip", answer: "Light cake" },
       { easy: "Window on a building roof that lets sunshine into an attic", medium: "Roof window for sunshine", hard: "Attic glow", answer: "Skylight" },
-      { easy: "Bright sweeping beam from a lighthouse across the water", medium: "Lighthouse sweep beam", hard: "Coastal beacon", answer: "Searchlight" },
+      { easy: "Bright sweeping beam from a coastal tower across the water", medium: "Coastal tower sweep beam", hard: "Coastal beacon", answer: "Searchlight" },
       { easy: "A featherweight boxing division for smaller fighters", medium: "Lowest boxing weight class", hard: "Feather division", answer: "Lightweight" }
     ]
   },
@@ -295,7 +295,7 @@ const CARDS = [
     category: "Body & Health",
     phrases: [
       { easy: "A physician who examines your vision and prescribes corrective lenses", medium: "Vision specialist", hard: "Optometrist", answer: "Eye doctor" },
-      { easy: "Makeup applied to the edges of your eyelids for definition", medium: "Lid-defining cosmetic", hard: "Pencil cosmetic", answer: "Eyeliner" },
+      { easy: "Makeup applied to the edges of your lids for definition", medium: "Lid-defining cosmetic", hard: "Pencil cosmetic", answer: "Eyeliner" },
       { easy: "The calm center of a violent tropical cyclone", medium: "Calm center of a hurricane", hard: "Cyclone center", answer: "Eye of the storm" },
       { easy: "The colored ring around your pupil that controls how much light enters", medium: "Colored membrane around the pupil", hard: "Pupil border", answer: "Eyeball" },
       { easy: "A tiny painful red sore on the edge of your lid that stings when you blink", medium: "Painful lid sore", hard: "Lid cyst", answer: "Eyelid bump" },
@@ -358,6 +358,640 @@ const CARDS = [
       { easy: "A historical period known for lack of progress and learning", medium: "Era of stagnation", hard: "Unenlightened era", answer: "Dark Ages" },
       { easy: "A deep shade found in a dense forest canopy", medium: "Deep forest shade", hard: "Canopy shade", answer: "Dark green" },
       { easy: "When someone is left without any information about what is happening", medium: "Uninformed state", hard: "Ignorance", answer: "In the dark" }
+    ]
+  },
+
+  // ===== BATCH 2: Cards 21–40 =====
+
+  // --- Card 21: WATER ---
+  {
+    buzzword: "WATER",
+    category: "Nature & Weather",
+    phrases: [
+      { easy: "A cascade of liquid pouring over a rocky cliff in the forest", medium: "Liquid cascade over a cliff", hard: "Cliff cascade", answer: "Waterfall" },
+      { easy: "A large round fruit with green rind and red juicy flesh inside", medium: "Green-rinded summer fruit", hard: "Picnic fruit", answer: "Watermelon" },
+      { easy: "A garment that keeps you completely dry in the rain", medium: "Rain-resistant garment", hard: "Rain-proof", answer: "Waterproof jacket" },
+      { easy: "A painting technique using pigments mixed with a clear liquid medium", medium: "Painting technique with liquid pigments", hard: "Liquid pigment art", answer: "Watercolor" },
+      { easy: "A mattress filled with liquid for a floating sleep experience", medium: "Liquid-filled mattress", hard: "Liquid bed", answer: "Waterbed" },
+      { easy: "The area along the edge of a harbor with restaurants and docks", medium: "Harbor-side district", hard: "Dock district", answer: "Waterfront" },
+      { easy: "A 1970s political scandal that led to a presidential resignation", medium: "1970s political scandal", hard: "Nixon scandal", answer: "Watergate" },
+      { easy: "A faint design embedded in paper that appears when held up to the light", medium: "Faint design embedded in paper", hard: "Paper imprint", answer: "Watermark" },
+      { easy: "A team sport played in a pool where players throw a ball into a net", medium: "Pool-based team sport with a ball", hard: "Pool sport", answer: "Water polo" },
+      { easy: "A portable container you carry to stay hydrated during exercise", medium: "Portable hydration container", hard: "Hydration flask", answer: "Water bottle" }
+    ]
+  },
+
+  // --- Card 22: SPACE ---
+  {
+    buzzword: "SPACE",
+    category: "Science & Math",
+    phrases: [
+      { easy: "A vehicle designed to travel beyond Earth's atmosphere", medium: "Vehicle for traveling beyond the atmosphere", hard: "Atmosphere vehicle", answer: "Spaceship" },
+      { easy: "Protective garment worn by astronauts during extravehicular activity", medium: "Astronaut's protective garment", hard: "Astronaut garment", answer: "Spacesuit" },
+      { easy: "An orbiting laboratory where astronauts live and work for months", medium: "Orbiting research facility", hard: "Orbiting lab", answer: "Space station" },
+      { easy: "The longest key on a computer keyboard that inserts a blank character", medium: "Longest key on a keyboard", hard: "Keyboard long key", answer: "Spacebar" },
+      { easy: "The four-dimensional framework combining position and duration in physics", medium: "Physics framework merging position and duration", hard: "4D framework", answer: "Spacetime" },
+      { easy: "When an astronaut exits the orbiting craft and floats outside in a suit", medium: "Astronaut floating outside the craft", hard: "EVA", answer: "Spacewalk" },
+      { easy: "A reusable craft that carried astronauts to orbit and glided to a runway", medium: "Reusable orbital craft that glides back", hard: "Orbital glider", answer: "Space shuttle" },
+      { easy: "The vast region far beyond Earth's orbit where probes venture", medium: "Region far beyond Earth's orbit", hard: "Beyond orbit", answer: "Deep space" },
+      { easy: "When you stare blankly and lose track of what's happening around you", medium: "Losing focus and staring blankly", hard: "Zoning away", answer: "Space out" },
+      { easy: "The virtual world of the internet and digital communication", medium: "Virtual internet world", hard: "Digital realm", answer: "Cyberspace" }
+    ]
+  },
+
+  // --- Card 23: MONEY ---
+  {
+    buzzword: "MONEY",
+    category: "Everyday Idioms",
+    phrases: [
+      { easy: "A baseball strategy that uses statistics to find undervalued players", medium: "Stats-based baseball strategy", hard: "Stats baseball strategy", answer: "Moneyball" },
+      { easy: "The illegal process of making illicit funds appear legitimate", medium: "Making illicit funds appear legitimate", hard: "Cleaning dirty funds", answer: "Money laundering" },
+      { easy: "Cash paid to someone to keep them from revealing a secret", medium: "Payment to keep someone quiet", hard: "Silence payment", answer: "Hush money" },
+      { easy: "A prepaid paper document used to send payment through the mail", medium: "Prepaid paper payment document", hard: "Paper payment", answer: "Money order" },
+      { easy: "A small weekly allowance given to children for doing chores", medium: "Kids' weekly allowance", hard: "Kids' allowance", answer: "Pocket money" },
+      { easy: "A project that keeps requiring more and more funding with no end in sight", medium: "Endless funding drain", hard: "Funding drain", answer: "Money pit" },
+      { easy: "Wealth that has been inherited through generations of a family", medium: "Inherited generational wealth", hard: "Inherited wealth", answer: "Old money" },
+      { easy: "Investments made by experienced professionals who know the market well", medium: "Experienced investors' capital", hard: "Pro capital", answer: "Smart money" },
+      { easy: "Counterfeit currency or currency that has lost its value", medium: "Counterfeit or worthless currency", hard: "Fake currency", answer: "Funny money" },
+      { easy: "A houseplant said to bring good fortune and financial prosperity", medium: "Houseplant symbolizing prosperity", hard: "Fortune plant", answer: "Money tree" }
+    ]
+  },
+
+  // --- Card 24: GAME ---
+  {
+    buzzword: "GAME",
+    category: "Sports & Games",
+    phrases: [
+      { easy: "A TV program where contestants compete for prizes by answering questions", medium: "TV contest program for prizes", hard: "TV contest", answer: "Game show" },
+      { easy: "A strategy worked out in advance for achieving a goal", medium: "Pre-worked strategy for success", hard: "Pre-worked strategy", answer: "Game plan" },
+      { easy: "An innovation that completely transforms how things are done", medium: "Innovation that transforms everything", hard: "Transformative innovation", answer: "Game changer" },
+      { easy: "The final phase of a chess match when few pieces remain on the board", medium: "Final phase of a chess match", hard: "Chess finale", answer: "Endgame" },
+      { easy: "The message on screen when you fail in a classic arcade title", medium: "Arcade failure message", hard: "Arcade ending", answer: "Game over" },
+      { easy: "The gathering and tailgate party before a big sporting event", medium: "Tailgate gathering before a match", hard: "Pre-match gathering", answer: "Pre-game" },
+      { easy: "The practice of using subtle tactics to gain an advantage within the rules", medium: "Subtle tactics for advantage within the rules", hard: "Subtle tactics", answer: "Gamesmanship" },
+      { easy: "A protected area of land where wild animals can roam freely", medium: "Protected wildlife area", hard: "Wildlife sanctuary", answer: "Game reserve" },
+      { easy: "Major championship events like the Super Bowl or World Cup final", medium: "Major championship events", hard: "Championship events", answer: "Big game" },
+      { easy: "Psychological tactics used to manipulate or confuse someone", medium: "Psychological manipulation tactics", hard: "Psych tactics", answer: "Mind game" }
+    ]
+  },
+
+  // --- Card 25: FACE ---
+  {
+    buzzword: "FACE",
+    category: "Body & Health",
+    phrases: [
+      { easy: "A cosmetic surgical procedure to reduce signs of aging in the cheeks and jaw", medium: "Cosmetic procedure to reduce aging signs", hard: "Youth procedure", answer: "Facelift" },
+      { easy: "The social network Mark Zuckerberg founded in his Harvard dorm room", medium: "Zuckerberg's social network", hard: "Meta platform", answer: "Facebook" },
+      { easy: "A covering worn over the nose and mouth for protection or skincare", medium: "Nose and mouth covering for protection", hard: "Protective covering", answer: "Face mask" },
+      { easy: "An expressionless look that hides your true emotions during a card competition", medium: "Expressionless look hiding emotions", hard: "Blank expression", answer: "Poker face" },
+      { easy: "A complete reversal of direction or opinion on an issue", medium: "Complete reversal of direction", hard: "Complete reversal", answer: "About-face" },
+      { easy: "The apparent worth of something at first glance without deeper examination", medium: "Apparent first-glance worth", hard: "First-glance worth", answer: "Face value" },
+      { easy: "The starting confrontation in hockey when two players compete for the puck", medium: "Hockey starting confrontation", hard: "Hockey confrontation", answer: "Face-off" },
+      { easy: "Apple's video calling feature on iPhone and Mac", medium: "Apple's video calling app", hard: "Apple video app", answer: "FaceTime" },
+      { easy: "To experience public embarrassment and a damaged reputation", medium: "Damaged reputation from public embarrassment", hard: "Public humiliation", answer: "Lose face" },
+      { easy: "Decorative colors applied to cheeks at festivals and sporting events", medium: "Decorative colors for festivals and events", hard: "Festival colors", answer: "Face paint" }
+    ]
+  },
+
+  // --- Card 26: LINE ---
+  {
+    buzzword: "LINE",
+    category: "Everyday Idioms",
+    phrases: [
+      { easy: "The final moment by which a task must be completed", medium: "Final moment for task completion", hard: "Due moment", answer: "Deadline" },
+      { easy: "The most important takeaway or final financial result", medium: "Most important takeaway", hard: "Key takeaway", answer: "Bottom line" },
+      { easy: "A rope or cable thrown to rescue someone in distress", medium: "Rescue rope for someone in distress", hard: "Rescue rope", answer: "Lifeline" },
+      { easy: "The funny final part of a joke that makes everyone laugh", medium: "Funny ending of a joke", hard: "Joke ending", answer: "Punchline" },
+      { easy: "A row of suspects shown to a witness for identification", medium: "Row of suspects for identification", hard: "Suspect row", answer: "Lineup" },
+      { easy: "A brief summary or sketch of the main points of a document", medium: "Brief summary of main points", hard: "Summary sketch", answer: "Outline" },
+      { easy: "To push a vehicle's engine to its absolute maximum RPM", medium: "Pushing an engine to maximum RPM", hard: "Max RPM", answer: "Redline" },
+      { easy: "An uncompromising position in political negotiations", medium: "Uncompromising political position", hard: "Uncompromising stance", answer: "Hardline" },
+      { easy: "Connected to the internet and accessible through a browser", medium: "Connected to the internet", hard: "Internet-connected", answer: "Online" },
+      { easy: "A visual chart showing events in chronological order", medium: "Chronological event chart", hard: "Chronology chart", answer: "Timeline" }
+    ]
+  },
+
+  // --- Card 27: TIME ---
+  {
+    buzzword: "TIME",
+    category: "Everyday Idioms",
+    phrases: [
+      { easy: "A brief pause called by a coach during a sports match to regroup", medium: "Coach's brief pause during a match", hard: "Coach pause", answer: "Timeout" },
+      { easy: "Something that never goes out of style regardless of era", medium: "Never goes out of style", hard: "Eternal style", answer: "Timeless" },
+      { easy: "A work schedule with fewer hours than a typical full week", medium: "Reduced-hour work schedule", hard: "Reduced schedule", answer: "Part-time" },
+      { easy: "Extra hours worked beyond the standard schedule, usually paid at a higher rate", medium: "Extra paid hours beyond standard schedule", hard: "Extra paid hours", answer: "Overtime" },
+      { easy: "The entire span from birth to death of a person", medium: "Entire span from birth to death", hard: "Birth to death span", answer: "Lifetime" },
+      { easy: "The evening hours when TV networks air their biggest shows", medium: "Peak TV viewing hours", hard: "Peak TV hours", answer: "Prime time" },
+      { easy: "A sealed container buried with items to be opened by future generations", medium: "Sealed container for future discovery", hard: "Future discovery container", answer: "Time capsule" },
+      { easy: "Available at whatever hour you need with no restrictions", medium: "Available whenever needed", hard: "Always available", answer: "Anytime" },
+      { easy: "A geographic region that shares the same clock setting as its neighbors", medium: "Geographic region sharing a clock setting", hard: "Clock region", answer: "Time zone" },
+      { easy: "To occupy yourself with an activity while waiting for something", medium: "Occupying yourself while waiting", hard: "Waiting activity", answer: "Kill time" }
+    ]
+  },
+
+  // --- Card 28: POWER ---
+  {
+    buzzword: "POWER",
+    category: "Pop Culture & Media",
+    phrases: [
+      { easy: "A team of color-coded superheroes who morph to fight monsters on TV", medium: "Color-coded superhero team that morphs", hard: "Morphing heroes", answer: "Power Rangers" },
+      { easy: "When someone abuses their authority to dominate others", medium: "Abusing authority to dominate", hard: "Authority abuse", answer: "Power trip" },
+      { easy: "The mental strength needed to resist temptation and stay disciplined", medium: "Mental strength to resist temptation", hard: "Mental discipline", answer: "Willpower" },
+      { easy: "When the electricity fails and all the lights go dark", medium: "Electricity failure leaving everything dark", hard: "Electric failure", answer: "Power outage" },
+      { easy: "The collective intellectual ability and mental capacity of a person or group", medium: "Collective intellectual capacity", hard: "Mental capacity", answer: "Brainpower" },
+      { easy: "A legal document that authorizes someone to act on your behalf", medium: "Legal document authorizing someone to act for you", hard: "Legal authorization", answer: "Power of attorney" },
+      { easy: "A unit measuring the strength of a car's engine", medium: "Engine strength measurement unit", hard: "Engine unit", answer: "Horsepower" },
+      { easy: "A strength sport focused on three maximum lifts: squat, bench, and deadlift", medium: "Strength sport with three max lifts", hard: "Max-lift sport", answer: "Powerlifting" },
+      { easy: "A two-note guitar technique used in rock songs for a heavy, aggressive sound", medium: "Two-note guitar technique for heavy sound", hard: "Guitar heavy note", answer: "Power chord" },
+      { easy: "A brief rest of 15-20 minutes that restores your energy during the workday", medium: "Brief 15-20 minute rest for energy", hard: "Brief energy rest", answer: "Power nap" }
+    ]
+  },
+
+  // --- Card 29: BLACK ---
+  {
+    buzzword: "BLACK",
+    category: "Everyday Idioms",
+    phrases: [
+      { easy: "A casino card game where you try to reach 21 without going over", medium: "Casino card game aiming for 21", hard: "21 card game", answer: "Blackjack" },
+      { easy: "A region in outer space with gravity so strong nothing can escape it", medium: "Space region with inescapable gravity", hard: "Inescapable gravity", answer: "Black hole" },
+      { easy: "A roster of people or organizations banned from participation", medium: "Roster of banned participants", hard: "Ban roster", answer: "Blacklist" },
+      { easy: "A period when electricity fails across an entire region", medium: "Regional electricity failure", hard: "Regional power failure", answer: "Blackout" },
+      { easy: "A once-popular smartphone brand with a physical keyboard, or a tart fruit", medium: "Smartphone brand with a keyboard, or tart fruit", hard: "Keyboard phone or fruit", answer: "Blackberry" },
+      { easy: "A formal dress code requiring a tuxedo and neckwear at elegant events", medium: "Formal dress code for elegant occasions", hard: "Formal dress code", answer: "Black tie" },
+      { easy: "An underground economy where illegal goods are bought and sold", medium: "Underground economy for illegal goods", hard: "Illegal economy", answer: "Black market" },
+      { easy: "The odd one in a family who doesn't fit the expected mold", medium: "Family oddball who doesn't fit in", hard: "Family oddball", answer: "Black sheep" },
+      { easy: "A morning brew served without cream or sugar", medium: "Morning brew without cream or sugar", hard: "Unsweetened brew", answer: "Black coffee" },
+      { easy: "Complete darkness with zero visibility at all", medium: "Complete and total darkness", hard: "Total darkness", answer: "Pitch black" }
+    ]
+  },
+
+  // --- Card 30: BLOOD ---
+  {
+    buzzword: "BLOOD",
+    category: "Body & Health",
+    phrases: [
+      { easy: "A medical measurement of the force of circulation through your arteries", medium: "Measurement of circulatory force", hard: "Circulatory force", answer: "Blood pressure" },
+      { easy: "Your genetic classification (A, B, AB, or O) that determines donation compatibility", medium: "Genetic classification for donation compatibility", hard: "Donation classification", answer: "Blood type" },
+      { easy: "A breed of dog famous for its incredible sense of smell used in tracking", medium: "Tracking breed with incredible scent ability", hard: "Scent-tracking breed", answer: "Bloodhound" },
+      { easy: "When the whites of your eyes appear red from exhaustion or irritation", medium: "Red eyes from exhaustion or irritation", hard: "Red eye condition", answer: "Bloodshot" },
+      { easy: "The flow of plasma and cells moving through your veins and arteries", medium: "Flow of plasma through veins and arteries", hard: "Vein flow", answer: "Bloodstream" },
+      { easy: "The glucose level measured in a diabetes test after fasting", medium: "Glucose level measured in a diabetes test", hard: "Glucose reading", answer: "Blood sugar" },
+      { easy: "A citrus fruit with deep reddish flesh and a berry-like flavor", medium: "Citrus fruit with reddish flesh and berry flavor", hard: "Red-fleshed citrus", answer: "Blood orange" },
+      { easy: "When Earth's shadow turns our nighttime neighbor a coppery red during an eclipse", medium: "Eclipse that turns the nighttime sky red", hard: "Red eclipse", answer: "Blood moon" },
+      { easy: "Ancestral lineage tracing back through generations of a family", medium: "Ancestral heritage through generations", hard: "Ancestral heritage", answer: "Bloodline" },
+      { easy: "An animal like a reptile that regulates body temperature from the environment", medium: "Reptile that gets warmth from the environment", hard: "Environment-heated animal", answer: "Cold-blooded" }
+    ]
+  },
+
+  // --- Card 31: WHITE ---
+  {
+    buzzword: "WHITE",
+    category: "Food & Drink",
+    phrases: [
+      { easy: "A chilled alcoholic beverage made from green grapes served in a tall glass", medium: "Chilled beverage from green grapes", hard: "Chilled grape vintage", answer: "White wine" },
+      { easy: "A correction fluid used to cover typing mistakes on paper", medium: "Correction fluid for paper mistakes", hard: "Correction fluid", answer: "Whiteout" },
+      { easy: "A costly gift that is more burden than benefit to its owner", medium: "Costly gift that's more burden than benefit", hard: "Costly burden gift", answer: "White elephant" },
+      { easy: "A universal symbol of surrender or truce in wartime", medium: "Universal symbol of surrender", hard: "Surrender symbol", answer: "White flag" },
+      { easy: "A harmless untruth told to avoid hurting someone's feelings", medium: "Harmless untruth to spare feelings", hard: "Harmless fib", answer: "White lie" },
+      { easy: "The clear part of a breakfast staple that turns opaque when cooked", medium: "Clear portion of a breakfast staple that turns opaque when cooked", hard: "Clear breakfast portion", answer: "Egg white" },
+      { easy: "Turbulent rapids in a river that thrill-seeking rafters navigate", medium: "Turbulent river rapids for rafters", hard: "River rapids", answer: "Whitewater" },
+      { easy: "A glossy wall surface used for writing with dry-erase markers in classrooms", medium: "Glossy surface for dry-erase markers", hard: "Dry-erase surface", answer: "Whiteboard" },
+      { easy: "A holiday when snow covers the ground on December 25th", medium: "December 25th with snow on the ground", hard: "Snowy December holiday", answer: "White Christmas" },
+      { easy: "A Disney princess who lived with seven miners in a cottage", medium: "Disney princess who lived with seven miners", hard: "Seven-miner princess", answer: "Snow White" }
+    ]
+  },
+
+  // --- Card 32: AIR ---
+  {
+    buzzword: "AIR",
+    category: "Nature & Weather",
+    phrases: [
+      { easy: "A motorized vehicle with wings that flies passengers between cities", medium: "Winged passenger vehicle that flies", hard: "Winged transport", answer: "Airplane" },
+      { easy: "A large facility with runways where travelers board flights", medium: "Facility with runways for boarding flights", hard: "Runway facility", answer: "Airport" },
+      { easy: "An inflatable safety cushion that deploys during a car collision", medium: "Inflatable cushion that deploys in a crash", hard: "Crash cushion", answer: "Airbag" },
+      { easy: "A tool that sprays fine paint mist for creating smooth artwork", medium: "Tool that sprays fine paint mist", hard: "Paint spray tool", answer: "Airbrush" },
+      { easy: "Pretending to play a musical instrument by strumming imaginary strings", medium: "Pretending to strum an imaginary instrument", hard: "Invisible strumming", answer: "Air guitar" },
+      { easy: "A system that cools and dehumidifies indoor spaces during summer", medium: "System that cools indoor spaces in summer", hard: "Indoor cooling system", answer: "Air conditioning" },
+      { easy: "The team that directs pilots from the tower to keep flights safe and organized", medium: "Tower team directing pilots for safety", hard: "Tower directors", answer: "Air traffic control" },
+      { easy: "The clean outdoor breeze after being stuck inside all day", medium: "Clean outdoor breeze", hard: "Outdoor breeze", answer: "Fresh air" },
+      { easy: "The minutes allocated for a broadcast on radio or television", medium: "Broadcast minutes on radio or TV", hard: "Broadcast minutes", answer: "Airtime" },
+      { easy: "When a TV or radio station stops broadcasting for the night", medium: "When a station stops broadcasting", hard: "Broadcasting ends", answer: "Off-air" }
+    ]
+  },
+
+  // --- Card 33: SOUND ---
+  {
+    buzzword: "SOUND",
+    category: "Music (2000+)",
+    phrases: [
+      { easy: "An online platform where independent musicians upload and share tracks", medium: "Platform for independent musicians to share tracks", hard: "Indie music platform", answer: "SoundCloud" },
+      { easy: "The collection of songs and score music from a movie or TV show", medium: "Collection of songs and score from a film", hard: "Film music collection", answer: "Soundtrack" },
+      { easy: "Material that blocks noise from entering or leaving a room", medium: "Material that blocks room noise", hard: "Noise-blocking material", answer: "Soundproof" },
+      { easy: "A short memorable quote from a politician played repeatedly on the news", medium: "Short memorable quote played on the news", hard: "Short news quote", answer: "Soundbite" },
+      { easy: "A multi-speaker audio system that creates an immersive listening experience", medium: "Multi-speaker system for immersive audio", hard: "Immersive speaker system", answer: "Surround sound" },
+      { easy: "The threshold an aircraft crosses when it exceeds the velocity of audio waves", medium: "Threshold when exceeding the velocity of audio waves", hard: "Velocity threshold", answer: "Sound barrier" },
+      { easy: "A vibration that travels through the atmosphere as pressure changes", medium: "Atmospheric vibration as pressure changes", hard: "Pressure vibration", answer: "Sound wave" },
+      { easy: "A pre-show test of microphones and speakers before a concert begins", medium: "Pre-show microphone and speaker test", hard: "Pre-show audio test", answer: "Sound check" },
+      { easy: "An artificial audio addition like footsteps or explosions added in post-production", medium: "Artificial audio added in post-production", hard: "Added audio", answer: "Sound effect" },
+      { easy: "Equipment including amplifiers, mixers, and speakers for live events", medium: "Amplifier and speaker setup for live events", hard: "Live event audio setup", answer: "Sound system" }
+    ]
+  },
+
+  // --- Card 34: HOT ---
+  {
+    buzzword: "HOT",
+    category: "Food & Drink",
+    phrases: [
+      { easy: "A sausage in a bun served at baseball stadiums and backyard cookouts", medium: "Sausage in a bun at cookouts", hard: "Stadium sausage", answer: "Hot dog" },
+      { easy: "A spicy condiment made from chili peppers for adding heat to food", medium: "Spicy condiment from chili peppers", hard: "Spicy condiment", answer: "Hot sauce" },
+      { easy: "A heated outdoor pool for relaxing sore muscles after a long day", medium: "Heated outdoor pool for muscle relaxation", hard: "Heated relaxation pool", answer: "Hot tub" },
+      { easy: "A sudden feeling of intense warmth experienced during menopause", medium: "Sudden warmth during menopause", hard: "Menopause warmth", answer: "Hot flash" },
+      { easy: "A dedicated telephone number for emergencies or crisis support", medium: "Dedicated emergency telephone number", hard: "Emergency number", answer: "Hotline" },
+      { easy: "A Wi-Fi access point that lets your phone connect to the internet on the go", medium: "Wi-Fi access point for on-the-go connectivity", hard: "Wi-Fi access point", answer: "Hotspot" },
+      { easy: "Someone who gets angry very quickly and loses their temper", medium: "Person who gets angry quickly", hard: "Quick-tempered person", answer: "Hothead" },
+      { easy: "A portable electric cooking surface used in dorm rooms and small apartments", medium: "Portable electric cooking surface", hard: "Portable cooking surface", answer: "Hot plate" },
+      { easy: "Chasing a suspect at high speed with sirens blaring", medium: "High-speed chase with sirens", hard: "High-speed chase", answer: "Hot pursuit" },
+      { easy: "A warm cocoa beverage topped with marshmallows on a winter evening", medium: "Warm cocoa with marshmallows in winter", hard: "Warm cocoa beverage", answer: "Hot chocolate" }
+    ]
+  },
+
+  // --- Card 35: WILD ---
+  {
+    buzzword: "WILD",
+    category: "Nature & Weather",
+    phrases: [
+      { easy: "An uncontrolled blaze that spreads rapidly through forests and grasslands", medium: "Uncontrolled forest blaze that spreads rapidly", hard: "Forest inferno", answer: "Wildfire" },
+      { easy: "A vast remote area of untouched natural landscape with no human development", medium: "Vast remote natural landscape untouched by humans", hard: "Untouched landscape", answer: "Wilderness" },
+      { easy: "An unexpected entrant who could upset the predicted outcome of a tournament", medium: "Unexpected tournament entrant", hard: "Tournament surprise", answer: "Wildcard" },
+      { easy: "Animals and organisms living freely in their natural habitat", medium: "Animals living freely in natural habitats", hard: "Free-roaming animals", answer: "Wildlife" },
+      { easy: "The American frontier era of cowboys, outlaws, and gold prospecting", medium: "American frontier era of cowboys and outlaws", hard: "Frontier era", answer: "Wild west" },
+      { easy: "A futile search that leads you on a frustrating and pointless pursuit", medium: "Frustrating and pointless search", hard: "Pointless pursuit", answer: "Wild goose chase" },
+      { easy: "A bloom that grows naturally in fields without being planted by anyone", medium: "Bloom growing naturally in unplanted fields", hard: "Natural field bloom", answer: "Wildflower" },
+      { easy: "An undomesticated feline that roams forests and mountains", medium: "Undomesticated roaming feline", hard: "Roaming feline", answer: "Wildcat" },
+      { easy: "A classic rock anthem by The Troggs with a memorable guitar riff", medium: "The Troggs' rock anthem", hard: "Troggs anthem", answer: "Wild thing" },
+      { easy: "Irresponsible behavior in one's younger years before settling down", medium: "Irresponsible youth behavior before maturity", hard: "Youthful indiscretion", answer: "Wild oats" }
+    ]
+  },
+
+  // --- Card 36: DEAD ---
+  {
+    buzzword: "DEAD",
+    category: "Pop Culture & Media",
+    phrases: [
+      { easy: "A street that goes nowhere and forces you to turn around", medium: "Street that goes nowhere", hard: "Nowhere street", answer: "Dead end" },
+      { easy: "The exact middle point of a target or area", medium: "Exact middle of a target or area", hard: "Exact midpoint", answer: "Dead center" },
+      { easy: "A tie in a race where two competitors finish at exactly the same moment", medium: "Exact tie in a race finish", hard: "Race tie", answer: "Dead heat" },
+      { easy: "An area with zero cell reception or an ocean region with no oxygen", medium: "Area with no cell reception or oxygen", hard: "No-signal area", answer: "Dead zone" },
+      { easy: "A strength exercise where you pull a weighted barbell off the floor", medium: "Exercise pulling a barbell off the floor", hard: "Floor pull exercise", answer: "Deadlift" },
+      { easy: "An obvious clue that reveals the truth instantly", medium: "Obvious clue that reveals the truth", hard: "Obvious clue", answer: "Dead giveaway" },
+      { easy: "Caught in the act with unmistakable evidence of guilt", medium: "Caught in the act with clear evidence", hard: "Caught red-handed", answer: "Dead to rights" },
+      { easy: "An awkward silence on a live radio or TV broadcast when no one speaks", medium: "Awkward broadcast silence when no one speaks", hard: "Broadcast silence", answer: "Dead air" },
+      { easy: "When your car won't start because the electrical power source is fully drained", medium: "Car won't start from a drained power source", hard: "Drained power source", answer: "Dead battery" },
+      { easy: "The AMC zombie drama that ran for 11 seasons starting in 2010", medium: "AMC zombie drama running 11 seasons", hard: "Zombie drama", answer: "The Walking Dead" }
+    ]
+  },
+
+  // --- Card 37: BOOK ---
+  {
+    buzzword: "BOOK",
+    category: "Pop Culture & Media",
+    phrases: [
+      { easy: "A group that meets monthly to discuss a novel everyone has read", medium: "Monthly group discussing a novel", hard: "Novel discussion group", answer: "Book club" },
+      { easy: "A piece of furniture with horizontal surfaces for storing reading materials", medium: "Furniture with surfaces for storing reading materials", hard: "Reading material storage", answer: "Bookshelf" },
+      { easy: "A strip of paper or leather that saves your spot in a novel", medium: "Strip that saves your spot in a novel", hard: "Spot saver", answer: "Bookmark" },
+      { easy: "A person who loves reading and spends every free moment with a novel", medium: "Person who spends all free moments reading", hard: "Reading enthusiast", answer: "Bookworm" },
+      { easy: "A collection of recipes and instructions for preparing meals", medium: "Collection of recipes for preparing meals", hard: "Recipe collection", answer: "Cookbook" },
+      { easy: "The protective outer wrapper of a novel that displays the title and art", medium: "Protective outer wrapper of a novel", hard: "Novel wrapper", answer: "Book cover" },
+      { easy: "A required manual for a class that students carry in their backpacks", medium: "Required manual for a class", hard: "Class manual", answer: "Textbook" },
+      { easy: "The practice of recording financial transactions for a business", medium: "Recording financial transactions for a business", hard: "Financial recording", answer: "Bookkeeping" },
+      { easy: "A small reference manual containing rules and procedures for an organization", medium: "Small reference manual with organizational rules", hard: "Reference manual", answer: "Handbook" },
+      { easy: "A children's publication with more illustrations than text on every page", medium: "Children's publication with many illustrations", hard: "Illustrated children's publication", answer: "Picture book" }
+    ]
+  },
+
+  // --- Card 38: STREET ---
+  {
+    buzzword: "STREET",
+    category: "Geography",
+    phrases: [
+      { easy: "Affordable meals sold from carts and stalls in bustling markets around the world", medium: "Affordable meals from carts in bustling markets", hard: "Cart meals", answer: "Street food" },
+      { easy: "Murals and graffiti painted on urban walls by creators like Banksy", medium: "Urban murals by creators like Banksy", hard: "Urban murals", answer: "Street art" },
+      { easy: "An illuminated pole on a sidewalk that guides your way after sunset", medium: "Illuminated pole on a sidewalk after sunset", hard: "Sidewalk illumination", answer: "Streetlight" },
+      { easy: "Urban casual fashion rooted in skate and hip-hop culture", medium: "Urban fashion from skate and hip-hop culture", hard: "Urban skate fashion", answer: "Streetwear" },
+      { easy: "Having practical knowledge of how to handle yourself in urban situations", medium: "Practical urban survival knowledge", hard: "Urban savvy", answer: "Street smart" },
+      { easy: "The financial district in New York where stock markets and banks operate", medium: "New York's financial district with stock markets", hard: "NYC financial district", answer: "Wall Street" },
+      { easy: "The title on a road sign like 'Elm Avenue' or 'Maple Boulevard'", medium: "Title on a road sign like 'Elm Avenue'", hard: "Road sign title", answer: "Street name" },
+      { easy: "An entertainer who plays music or does tricks for tips on a busy sidewalk", medium: "Entertainer performing for tips on a sidewalk", hard: "Sidewalk entertainer", answer: "Street performer" },
+      { easy: "The feature on Google Maps that shows panoramic photos of any location", medium: "Google Maps feature with panoramic location photos", hard: "Google panorama feature", answer: "Street view" },
+      { easy: "The primary commercial road running through the center of a small American town", medium: "Primary commercial road in a small town center", hard: "Town center road", answer: "Main street" }
+    ]
+  },
+
+  // --- Card 39: IRON ---
+  {
+    buzzword: "IRON",
+    category: "Science & Math",
+    phrases: [
+      { easy: "The Marvel superhero in a high-tech armored suit played by Robert Downey Jr.", medium: "Marvel superhero in armored suit played by Downey Jr.", hard: "Armored Marvel hero", answer: "Iron Man" },
+      { easy: "A padded surface that unfolds for pressing wrinkles out of clothing", medium: "Padded surface for pressing wrinkles from clothing", hard: "Wrinkle-pressing surface", answer: "Ironing board" },
+      { easy: "A competitive cooking show where contestants battle to impress judges", medium: "Competitive cooking show with battling contestants", hard: "Cooking battle show", answer: "Iron Chef" },
+      { easy: "The political and ideological barrier dividing Europe during the Cold War", medium: "Political barrier dividing Cold War Europe", hard: "Cold War barrier", answer: "Iron curtain" },
+      { easy: "Ruling with brutal and uncompromising control over everyone", medium: "Brutal and uncompromising control", hard: "Brutal control", answer: "Iron fist" },
+      { easy: "A heavy durable metal alloy used for making skillets and architectural elements", medium: "Heavy durable metal for skillets", hard: "Heavy skillet metal", answer: "Cast iron" },
+      { easy: "A mechanical ventilator from the 1950s that helped polio patients breathe", medium: "1950s mechanical ventilator for polio patients", hard: "Polio ventilator", answer: "Iron lung" },
+      { easy: "A medieval torture device, or a legendary heavy metal band from England", medium: "Medieval torture device or English metal band", hard: "Torture device or band", answer: "Iron Maiden" },
+      { easy: "A malleable metal worked by blacksmiths into decorative gates and fences", medium: "Malleable metal shaped by blacksmiths into gates", hard: "Blacksmith metal", answer: "Wrought iron" },
+      { easy: "The archaeological period when humans first learned to smelt metal from ore", medium: "Archaeological period of smelting metal from ore", hard: "Smelting period", answer: "Iron Age" }
+    ]
+  },
+
+  // --- Card 40: NET ---
+  {
+    buzzword: "NET",
+    category: "Tech & Internet",
+    phrases: [
+      { easy: "The streaming platform that popularized binge-watching TV series", medium: "Streaming platform that popularized binge-watching", hard: "Binge-watching platform", answer: "Netflix" },
+      { easy: "A group of connected computers that share data and resources", medium: "Connected computers sharing data", hard: "Connected computer group", answer: "Network" },
+      { easy: "The total value of all your assets minus everything you owe", medium: "Total assets minus all debts", hard: "Assets minus debts", answer: "Net worth" },
+      { easy: "A mesh pouch on a stick used by entomologists to catch insects in the field", medium: "Mesh pouch on a stick for catching insects", hard: "Insect-catching mesh", answer: "Butterfly net" },
+      { easy: "A financial backup or physical structure that catches you if you fall", medium: "Backup that catches you if you fall", hard: "Fall-backup", answer: "Safety net" },
+      { easy: "The principle that ISPs should treat all online traffic equally without favoritism", medium: "Principle that ISPs treat all online traffic equally", hard: "Equal traffic principle", answer: "Net neutrality" },
+      { easy: "The earnings remaining after all business expenses have been deducted", medium: "Earnings after all expenses deducted", hard: "Earnings after expenses", answer: "Net profit" },
+      { easy: "A woven mesh dragged through the ocean to harvest seafood", medium: "Woven mesh dragged through the ocean for seafood", hard: "Ocean mesh harvest", answer: "Fishing net" },
+      { easy: "The positive difference when your returns exceed your investment", medium: "Positive difference when returns exceed investment", hard: "Returns minus investment", answer: "Net gain" },
+      { easy: "The mesh divider stretched across a court for a beach or indoor serving sport", medium: "Mesh divider for a beach court sport", hard: "Court mesh divider", answer: "Volleyball net" }
+    ]
+  },
+
+  // ===== BATCH 3: Cards 41–55 =====
+
+  // --- Card 41: BONE ---
+  {
+    buzzword: "BONE",
+    category: "Body & Health",
+    phrases: [
+      { easy: "The soft spongy tissue inside a skeleton that manufactures blood cells", medium: "Blood-cell-producing tissue inside skeletons", hard: "Cell factory inside skeleton", answer: "Bone marrow" },
+      { easy: "A person whose hobby is gathering and identifying skeletal fragments", medium: "Gatherer of skeletal fragments", hard: "Fragment gatherer", answer: "Bone collector" },
+      { easy: "Fine porcelain dinnerware originally made with ash from animal remains", medium: "Porcelain dinnerware made with ash from remains", hard: "Ash-based porcelain", answer: "Bone china" },
+      { easy: "Extremely lazy and unwilling to exert any effort whatsoever", medium: "Extremely lazy and effort-averse", hard: "Completely idle", answer: "Bone-idle" },
+      { easy: "An issue or topic that causes ongoing arguments between people", medium: "Topic causing ongoing arguments", hard: "Disputed topic", answer: "Bone of contention" },
+      { easy: "The rigid framework of vertebrate animals providing support and form", medium: "Rigid vertebrate support framework", hard: "Skeletal framework", answer: "Bone density" },
+      { easy: "A sharp fragment that breaks off when a skeletal piece fractures", medium: "Sharp fragment from a fractured skeletal piece", hard: "Fracture fragment", answer: "Bone shard" },
+      { easy: "A dull aching soreness deep within the skeletal system", medium: "Dull aching soreness within the skeleton", hard: "Deep skeletal soreness", answer: "Bone ache" },
+      { easy: "The connective tissue linking two skeletal segments at a joint", medium: "Connective tissue at a skeletal joint", hard: "Joint connector", answer: "Bone ligament" },
+      { easy: "A canine snack shaped like a femur or rib for gnawing", medium: "Canine snack shaped like a femur or rib", hard: "Femur-shaped gnaw", answer: "Bone chew" }
+    ]
+  },
+
+  // --- Card 42: CROSS ---
+  {
+    buzzword: "CROSS",
+    category: "Everyday Idioms",
+    phrases: [
+      { easy: "An intersection of two roads where you must decide which direction to go", medium: "Intersection where you choose a direction", hard: "Decision intersection", answer: "Crossroads" },
+      { easy: "A decorative pattern of intersecting parallel lines drawn on a surface", medium: "Intersecting parallel line pattern", hard: "Intersecting line pattern", answer: "Cross-hatch" },
+      { easy: "A fitness regimen that blends weightlifting cardio and gymnastics movements", medium: "Fitness blend of weightlifting and gymnastics", hard: "Mixed-fitness regimen", answer: "Cross-training" },
+      { easy: "When an attorney questions the opposing side's witness in a trial", medium: "Attorney questioning the opposing witness", hard: "Opposing witness questioning", answer: "Cross-examination" },
+      { easy: "Running or traveling over open terrain instead of following paved routes", medium: "Traveling over open terrain off-road", hard: "Off-road travel", answer: "Cross-country" },
+      { easy: "A marked passage on a street where pedestrians can safely walk over", medium: "Marked pedestrian street passage", hard: "Pedestrian passage", answer: "Crosswalk" },
+      { easy: "A red emblem on a white background indicating medical aid is available", medium: "Red-on-white medical aid emblem", hard: "Medical aid emblem", answer: "Cross symbol" },
+      { easy: "A needlework technique creating X-shaped stitches on fabric", medium: "X-stitch needlework on fabric", hard: "X-stitch craft", answer: "Cross-stitch" },
+      { easy: "To betray someone who trusted you by switching sides", medium: "Betray someone's trust by switching sides", hard: "Betray trust", answer: "Cross over" },
+      { easy: "Irritable and easily annoyed about minor inconveniences", medium: "Easily annoyed by minor things", hard: "Easily annoyed", answer: "Cross-tempered" }
+    ]
+  },
+
+  // --- Card 43: COFFEE ---
+  {
+    buzzword: "COFFEE",
+    category: "Food & Drink",
+    phrases: [
+      { easy: "A short rest during the workday to grab a warm brew and chat with colleagues", medium: "Workday rest for a warm brew", hard: "Midwork brew pause", answer: "Coffee break" },
+      { easy: "A ceramic vessel you hold to sip your morning espresso", medium: "Ceramic vessel for morning espresso", hard: "Espresso vessel", answer: "Coffee cup" },
+      { easy: "An appliance that drips hot water through grounds to produce your morning drink", medium: "Appliance dripping hot water through grounds", hard: "Drip brew appliance", answer: "Coffee maker" },
+      { easy: "The roasted seed of a tropical plant ground up for brewing", medium: "Roasted tropical seed for brewing", hard: "Roasted brew seed", answer: "Coffee bean" },
+      { easy: "A frozen sweet dessert flavored with roasted brew extract", medium: "Frozen sweet dessert with brew extract", hard: "Brew-flavored frozen dessert", answer: "Coffee ice cream" },
+      { easy: "A romantic or casual meeting over warm cups of brew", medium: "Meeting over warm brew", hard: "Brew meeting", answer: "Coffee date" },
+      { easy: "A low surface beside a couch for resting mugs and magazines", medium: "Low couch-side surface for mugs", hard: "Couch-side surface", answer: "Coffee table" },
+      { easy: "A dark mark left on fabric after spilling a morning drink", medium: "Dark mark from spilled brew", hard: "Spilled brew mark", answer: "Coffee stain" },
+      { easy: "An establishment where baristas prepare espresso drinks to order", medium: "Barista establishment for espresso", hard: "Espresso establishment", answer: "Coffee shop" },
+      { easy: "An oversized illustrated volume meant for guests to browse on the couch-side surface", medium: "Illustrated volume for browsing on a couch-side surface", hard: "Illustrated browsing volume", answer: "Coffee table book" }
+    ]
+  },
+
+  // --- Card 44: BALL ---
+  {
+    buzzword: "BALL",
+    category: "Sports & Games",
+    phrases: [
+      { easy: "An elegant formal dance held in a grand hall with orchestral music", medium: "Elegant formal dance in a grand hall", hard: "Grand formal dance", answer: "Ballroom" },
+      { easy: "A sport or competition involving a spherical object on a field or court", medium: "Sport with a spherical object on a court", hard: "Spherical-object sport", answer: "Ball game" },
+      { easy: "A rough numerical estimate that gives you a general idea", medium: "Rough numerical estimate", hard: "Rough estimate", answer: "Ballpark figure" },
+      { easy: "An athlete who swings a bat and runs the bases in America's pastime", medium: "Athlete who swings a bat in America's pastime", hard: "Bat-swinging athlete", answer: "Ballplayer" },
+      { easy: "A decorative spherical trinket hung on a holiday tree in December", medium: "Spherical trinket on a December tree", hard: "Tree sphere decoration", answer: "Ball ornament" },
+      { easy: "A heavy metal weight attached to a prisoner's leg to prevent escape", medium: "Heavy metal weight restraining a prisoner", hard: "Prisoner restraint weight", answer: "Ball and chain" },
+      { easy: "The athlete who carries the oval projectile toward the end zone on the gridiron", medium: "Athlete carrying the oval projectile on the gridiron", hard: "Projectile-carrying athlete", answer: "Ball carrier" },
+      { easy: "A stadium or arena where a professional batting sport is played", medium: "Stadium for a professional batting sport", hard: "Batting sport stadium", answer: "Ballpark" },
+      { easy: "A joint mechanism that allows rotation in multiple directions", medium: "Joint allowing multi-directional rotation", hard: "Rotating joint", answer: "Ball and socket" },
+      { easy: "A formal evening event featuring dancing and formal attire", medium: "Formal evening event with dancing", hard: "Formal dance event", answer: "Ball night" }
+    ]
+  },
+
+  // --- Card 45: QUEEN ---
+  {
+    buzzword: "QUEEN",
+    category: "Pop Culture & Media",
+    phrases: [
+      { easy: "The legendary rock group with Freddie Mercury known for Bohemian Rhapsody", medium: "Freddie Mercury's legendary rock group", hard: "Mercury's rock group", answer: "Queen band" },
+      { easy: "The long-reigning British monarch who served from 1952 to 2022", medium: "British monarch reigning 1952-2022", hard: "Long-reigning monarch", answer: "Queen Elizabeth" },
+      { easy: "A playing piece in chess that can move any number of squares in any direction", medium: "Chess piece moving any direction freely", hard: "Versatile chess piece", answer: "Queen piece" },
+      { easy: "A mattress dimension larger than full but smaller than king", medium: "Mattress between full and king in width", hard: "Mid-width mattress", answer: "Queen-size" },
+      { easy: "The parent of a ruling female sovereign", medium: "Parent of a ruling female sovereign", hard: "Sovereign's parent", answer: "Queen mother" },
+      { easy: "A playing card featuring a female royal as its face", medium: "Playing card with a female royal face", hard: "Female royal card", answer: "Queen of hearts" },
+      { easy: "A large and impressive residence befitting female royalty", medium: "Impressive residence for female royalty", hard: "Royal residence", answer: "Queen house" },
+      { easy: "A musical track celebrating women who rule with confidence and style", medium: "Track celebrating confident ruling women", hard: "Ruling-women anthem", answer: "Queen song" },
+      { easy: "A competitive event where drag artists perform and compete for a crown", medium: "Drag artist competition for a crown", hard: "Drag crown competition", answer: "Queen pageant" },
+      { easy: "The spouse of a ruling male sovereign", medium: "Spouse of a ruling male sovereign", hard: "Sovereign's spouse", answer: "Queen consort" }
+    ]
+  },
+
+  // --- Card 46: BEAT ---
+  {
+    buzzword: "BEAT",
+    category: "Music (2000+)",
+    phrases: [
+      { easy: "A producer who crafts instrumental loops for rappers to rhyme over", medium: "Producer crafting instrumental loops for rappers", hard: "Loop producer", answer: "Beat maker" },
+      { easy: "The exact moment in an EDM track when the bass hits with maximum impact", medium: "Moment when EDM bass hits hardest", hard: "Bass impact moment", answer: "Beat drop" },
+      { easy: "A patrol officer who walks a regular neighborhood route on foot", medium: "Patrol officer on a regular foot route", hard: "Foot patrol officer", answer: "Beat cop" },
+      { easy: "A head-to-head contest where producers play their best instrumental loops", medium: "Head-to-head producer contest with loops", hard: "Producer contest", answer: "Beat battle" },
+      { easy: "A journalist assigned to cover a specific topic area like education or crime", medium: "Journalist covering a specific topic area", hard: "Topic-assigned journalist", answer: "Beat reporter" },
+      { easy: "Worn out and exhausted after a grueling day of work", medium: "Worn out after grueling work", hard: "Exhausted", answer: "Beat down" },
+      { easy: "The 1950s literary movement of Kerouac and Ginsberg rejecting mainstream values", medium: "Kerouac and Ginsberg's 1950s literary movement", hard: "50s literary movement", answer: "Beat generation" },
+      { easy: "An electronic instrumental composition used as backing for a vocalist", medium: "Electronic instrumental for vocal backing", hard: "Vocal backing instrumental", answer: "Beat track" },
+      { easy: "The steady rhythmic pulse you tap your foot to in a song", medium: "Steady pulse you tap your foot to", hard: "Steady pulse", answer: "Beat tempo" },
+      { easy: "To defeat an opponent by outscoring them in a competition", medium: "Defeat an opponent by outscoring them", hard: "Outscore opponent", answer: "Beat up" }
+    ]
+  },
+
+  // --- Card 47: CLOUD ---
+  {
+    buzzword: "CLOUD",
+    category: "Tech & Internet",
+    phrases: [
+      { easy: "Saving your digital files to remote servers instead of your own hard drive", medium: "Saving files to remote servers", hard: "Remote file saving", answer: "Cloud storage" },
+      { easy: "Processing power delivered over the web from distant data centers", medium: "Processing from distant data centers", hard: "Distant processing", answer: "Cloud computing" },
+      { easy: "Playing video titles streamed from remote hardware instead of your own console", medium: "Playing titles streamed from remote hardware", hard: "Remote-streamed play", answer: "Cloud gaming" },
+      { easy: "A sudden intense downpour that dumps rain in a short flash", medium: "Sudden intense downpour", hard: "Intense downpour", answer: "Cloud burst" },
+      { easy: "A white or gray mass of condensed water vapor floating in the atmosphere", medium: "Condensed water vapor mass aloft", hard: "Floating vapor mass", answer: "Cloud formation" },
+      { easy: "Software that runs on remote servers and is accessed through a browser", medium: "Browser-accessed remote software", hard: "Browser-based software", answer: "Cloud app" },
+      { easy: "When the sky darkens and a gloomy overcast mood settles in", medium: "Sky darkening with gloomy overcast", hard: "Gloomy overcast", answer: "Cloud over" },
+      { easy: "The extent to which the sky is obscured by moisture masses above", medium: "Sky obscured by moisture masses", hard: "Sky obscuration", answer: "Cloud cover" },
+      { easy: "An online infrastructure for deploying software without managing physical hardware", medium: "Online infrastructure for hardware-free deployment", hard: "Hardware-free deployment", answer: "Cloud platform" },
+      { easy: "A serverless code execution environment that runs on demand", medium: "Serverless on-demand code execution", hard: "On-demand execution", answer: "Cloud function" }
+    ]
+  },
+
+  // --- Card 48: STORM ---
+  {
+    buzzword: "STORM",
+    category: "Nature & Weather",
+    phrases: [
+      { easy: "The dangerous rise in coastal waters pushed inland by a hurricane's winds", medium: "Coastal water rise from hurricane winds", hard: "Hurricane-driven rise", answer: "Storm surge" },
+      { easy: "A soldier in a specialized infantry unit from the World War era", medium: "Specialized WW-era infantry soldier", hard: "Specialized infantry soldier", answer: "Storm trooper" },
+      { easy: "To exit a room in a furious rage slamming the door behind you", medium: "Exit furiously slamming a door", hard: "Furious exit", answer: "Storm out" },
+      { easy: "An ominous dark mass of moisture signaling approaching severe weather", medium: "Dark moisture mass signaling severe weather", hard: "Ominous moisture mass", answer: "Storm cloud" },
+      { easy: "The leading edge of an advancing weather system with rain and wind", medium: "Leading edge of an advancing weather system", hard: "Weather system edge", answer: "Storm front" },
+      { easy: "An extra protective layer installed over a house opening to block harsh weather", medium: "Protective layer over a house opening for severe weather", hard: "Weather protective layer", answer: "Storm window" },
+      { easy: "A sign that trouble or anger is building up and about to explode", medium: "Sign of building trouble about to explode", hard: "Building anger sign", answer: "Storm brewing" },
+      { easy: "A reinforced safe room designed to protect against extreme weather events", medium: "Reinforced safe room for extreme weather", hard: "Weather safe room", answer: "Storm shelter" },
+      { easy: "To assault and overtake a fortified position by overwhelming force", medium: "Assault and overtake a fortified position", hard: "Fortress assault", answer: "Storm the castle" },
+      { easy: "A violent disturbance with high winds and heavy precipitation", medium: "Violent disturbance with high winds and precipitation", hard: "Violent weather event", answer: "Storm system" }
+    ]
+  },
+
+  // --- Card 49: PEN ---
+  {
+    buzzword: "PEN",
+    category: "Everyday Idioms",
+    phrases: [
+      { easy: "A distant friend you exchange handwritten letters with through the mail", medium: "Distant friend for handwritten mail exchange", hard: "Mail letter friend", answer: "Pen pal" },
+      { easy: "An assumed identity an author publishes under instead of their real one", medium: "Author's assumed publishing identity", hard: "Author alias", answer: "Pen name" },
+      { easy: "A small folding blade tucked inside a writing instrument for emergencies", medium: "Folding blade inside a writing instrument", hard: "Blade in a writer", answer: "Pen knife" },
+      { easy: "The sharp metal tip of a fountain instrument that touches the page", medium: "Sharp metal tip of a fountain instrument", hard: "Fountain instrument tip", answer: "Pen nib" },
+      { easy: "To schedule or confirm an appointment firmly in your calendar", medium: "Confirm an appointment firmly", hard: "Confirm firmly", answer: "Pen in" },
+      { easy: "A fenced enclosure where farmers keep livestock contained", medium: "Fenced enclosure for containing livestock", hard: "Livestock enclosure", answer: "Pen for animals" },
+      { easy: "A correctional facility where inmates serve their sentences", medium: "Correctional facility for serving sentences", hard: "Inmate facility", answer: "Penitentiary" },
+      { easy: "A writing instrument maker that produces premium fountain instruments", medium: "Premium fountain instrument maker", hard: "Premium writing maker", answer: "Pen brand" },
+      { easy: "The small removable refill inside a fountain instrument that holds ink", medium: "Removable ink refill inside a fountain instrument", hard: "Fountain ink refill", answer: "Pen cartridge" },
+      { easy: "An enclosed area adjacent to a barn for keeping farm animals", medium: "Enclosed area near a barn for animals", hard: "Barn enclosure", answer: "Pen yard" }
+    ]
+  },
+
+  // --- Card 50: PITCH ---
+  {
+    buzzword: "PITCH",
+    category: "Sports & Games",
+    phrases: [
+      { easy: "So completely dark you cannot see your hand in front of your face", medium: "So dark nothing is visible at all", hard: "Absolute darkness", answer: "Pitch black" },
+      { easy: "A visual presentation entrepreneurs use to persuade investors to fund their startup", medium: "Visual presentation to persuade investors", hard: "Investor persuasion slides", answer: "Pitch deck" },
+      { easy: "The playing field where a soccer or rugby match takes place", medium: "Playing field for soccer or rugby", hard: "Soccer field", answer: "Pitch field" },
+      { easy: "The total number of throws a hurler has made during a match", medium: "Total throws by a hurler in a match", hard: "Hurler throw total", answer: "Pitch count" },
+      { easy: "Flawlessly accurate in musical tone without any deviation", medium: "Flawless musical tone accuracy", hard: "Tone accuracy", answer: "Pitch perfect" },
+      { easy: "A sales presentation where you try to convince a client to buy your product", medium: "Sales presentation to convince a client", hard: "Client persuasion", answer: "Pitch meeting" },
+      { easy: "The 2012 a cappella comedy film about a college singing group", medium: "2012 a cappella college movie", hard: "A cappella movie", answer: "Pitch Perfect" },
+      { easy: "To erect a temporary outdoor shelter for camping", medium: "Erect a temporary outdoor shelter", hard: "Erect outdoor shelter", answer: "Pitch tent" },
+      { easy: "A fast throw in cricket that bounces near the batter's feet", medium: "Cricket throw bouncing near the feet", hard: "Cricket foot bounce", answer: "Pitch up" },
+      { easy: "The degree of steepness or incline of a roof's slope", medium: "Steepness incline of a roof", hard: "Roof steepness", answer: "Pitch angle" }
+    ]
+  },
+
+  // --- Card 51: KNIGHT ---
+  {
+    buzzword: "KNIGHT",
+    category: "Pop Culture & Media",
+    phrases: [
+      { easy: "The DC hero who defends Gotham City wearing a dark cowl and cape", medium: "DC hero in a dark cowl defending Gotham", hard: "Gotham cowl hero", answer: "Knight vigilante" },
+      { easy: "A wandering medieval warrior who quests for adventure and honor", medium: "Wandering medieval questing warrior", hard: "Questing warrior", answer: "Knight errant" },
+      { easy: "The 1982 TV series about a crime-fighting intelligent automobile named KITT", medium: "1982 crime-fighting intelligent automobile series", hard: "Smart car TV series", answer: "Knight Rider" },
+      { easy: "The ceremonial act of a monarch tapping a sword on someone's shoulder to bestow rank", medium: "Monarch's sword tap conferring rank", hard: "Sword-tap ritual", answer: "Knight ceremony" },
+      { easy: "The chess figure shaped like a horse that moves in an L-pattern", medium: "Horse-shaped chess figure moving in L-pattern", hard: "L-shaped chess horse", answer: "Knight piece" },
+      { easy: "The dramatic downfall or defeat of a medieval warrior's order", medium: "Downfall of a medieval warrior order", hard: "Warrior order downfall", answer: "Knight fall" },
+      { easy: "A medieval military-religious order from the Crusades era", medium: "Crusades-era military-religious order", hard: "Crusades military order", answer: "Knight templar" },
+      { easy: "The protective metal suit a medieval warrior wore into battle", medium: "Metal suit a medieval warrior wore", hard: "Warrior metal suit", answer: "Knight armor" },
+      { easy: "The warrior who jousts and competes in a royal tournament", medium: "Warrior competing in a royal jousting tournament", hard: "Jousting competitor", answer: "Knight champion" },
+      { easy: "A warrior of Arthur's legendary fellowship at the circular dining table", medium: "Arthur's legendary fellowship warrior", hard: "Arthurian fellowship warrior", answer: "Knight order" }
+    ]
+  },
+
+  // --- Card 52: CAKE ---
+  {
+    buzzword: "CAKE",
+    category: "Food & Drink",
+    phrases: [
+      { easy: "Decorative figurines placed atop a wedding dessert for the newlyweds", medium: "Figurines atop a wedding dessert", hard: "Wedding figurines", answer: "Cake topper" },
+      { easy: "A sweet buttercream or fondant layer covering a baked celebration treat", medium: "Buttercream layer covering a baked treat", hard: "Treat coating", answer: "Cake frosting" },
+      { easy: "A miniature individual baked treat wrapped in a paper cup", medium: "Miniature baked treat in a paper cup", hard: "Mini paper-cup treat", answer: "Cupcake" },
+      { easy: "An easy victory or task that requires almost no effort at all", medium: "Easy task requiring no effort", hard: "Effortless task", answer: "Cake walk" },
+      { easy: "A round metal mold used for baking layered celebration treats in the oven", medium: "Metal mold for baking layered treats", hard: "Baking mold", answer: "Cake pan" },
+      { easy: "The sweet layered dessert served with candles on your annual celebration day", medium: "Layered dessert with candles on your celebration day", hard: "Candle dessert", answer: "Birthday cake" },
+      { easy: "The art of smoothing and sculpting fondant over a baked celebration treat", medium: "Art of sculpting fondant over a baked treat", hard: "Fondant sculpting", answer: "Cake decorating" },
+      { easy: "A multi-level pedestal used to display an elaborate celebration dessert", medium: "Multi-level pedestal for a celebration dessert", hard: "Dessert pedestal", answer: "Cake stand" },
+      { easy: "A wedge-shaped portion cut from a layered celebration dessert", medium: "Wedge cut from a layered dessert", hard: "Dessert wedge", answer: "Cake slice" },
+      { easy: "A small circular baked good with a hole in the middle, often glazed", medium: "Circular glazed baked good with a hole", hard: "Glazed ring treat", answer: "Cake donut" }
+    ]
+  },
+
+  // --- Card 53: BRIDGE ---
+  {
+    buzzword: "BRIDGE",
+    category: "Geography",
+    phrases: [
+      { easy: "The famous enclosed Venetian walkway connecting a palace to a prison", medium: "Enclosed Venetian walkway from palace to prison", hard: "Venice palace-prison walk", answer: "Bridge of Sighs" },
+      { easy: "A covered passage linking two structures over a street or gap", medium: "Covered passage linking structures over a gap", hard: "Structure-linking passage", answer: "Bridge walk" },
+      { easy: "A trick-taking card activity where four participants play in two partnerships", medium: "Trick-taking activity with four in partnerships", hard: "Partnership trick activity", answer: "Bridge game" },
+      { easy: "A dental prosthesis that fills the gap left by a missing molar", medium: "Dental prosthesis for a missing molar gap", hard: "Molar gap prosthesis", answer: "Bridge work" },
+      { easy: "The command center on a vessel from which the captain navigates", medium: "Vessel's command center for navigation", hard: "Navigation command center", answer: "Bridge deck" },
+      { easy: "A structural span that conveys water across a valley like a Roman-era channel", medium: "Span conveying water across a valley", hard: "Water-conveying span", answer: "Bridge aqueduct" },
+      { easy: "A prosthetic mouth appliance replacing one or more missing teeth", medium: "Prosthetic mouth appliance for missing teeth", hard: "Tooth replacement", answer: "Bridge dental" },
+      { easy: "A transitional sonic passage connecting a verse to a chorus", medium: "Transitional passage connecting verse to chorus", hard: "Verse-chorus passage", answer: "Bridge section" },
+      { easy: "A geologically formed rock arch spanning a canyon gap", medium: "Geologic rock arch spanning a canyon", hard: "Canyon rock arch", answer: "Bridge natural" },
+      { easy: "The iconic orange suspension structure spanning the entrance to San Francisco Bay", medium: "Orange suspension structure at San Francisco Bay", hard: "SF Bay orange span", answer: "Bridge golden" }
+    ]
+  },
+
+  // --- Card 54: WAVE ---
+  {
+    buzzword: "WAVE",
+    category: "Science & Math",
+    phrases: [
+      { easy: "The mathematical formula describing a quantum particle's probability distribution", medium: "Formula for quantum probability distribution", hard: "Quantum probability formula", answer: "Wave function" },
+      { easy: "A friendly hand gesture to acknowledge someone from a distance", medium: "Hand gesture acknowledging someone from afar", hard: "Distant hand greeting", answer: "Wave hello" },
+      { easy: "The distance between two consecutive peaks of a repeating oscillation", medium: "Distance between consecutive oscillation peaks", hard: "Peak-to-peak distance", answer: "Wave length" },
+      { easy: "A ripple in spacetime caused by the collision of massive cosmic objects", medium: "Spacetime ripple from cosmic collisions", hard: "Spacetime ripple", answer: "Wave gravity" },
+      { easy: "A device producing oscillating signals for laboratory experiments", medium: "Oscillating signal producer for experiments", hard: "Oscillation signal source", answer: "Wave generator" },
+      { easy: "The undulating movement of ocean swells approaching the coastline", medium: "Undulating ocean swells approaching shore", hard: "Ocean swells", answer: "Wave motion" },
+      { easy: "A classical physics model explaining light and sound as oscillatory disturbances", medium: "Classical model of oscillatory disturbances", hard: "Oscillation model", answer: "Wave theory" },
+      { easy: "The power carried by an oscillating disturbance through a medium", medium: "Power from an oscillating disturbance", hard: "Oscillation power", answer: "Wave energy" },
+      { easy: "A disturbance that travels through matter transferring power without permanent displacement", medium: "Disturbance transferring power through matter", hard: "Power-transferring disturbance", answer: "Wave propagation" },
+      { easy: "The highest point of an oscillating curve above the equilibrium position", medium: "Highest point of an oscillation above equilibrium", hard: "Oscillation peak", answer: "Wave amplitude" }
+    ]
+  },
+
+  // --- Card 55: SHOT ---
+  {
+    buzzword: "SHOT",
+    category: "Sports & Games",
+    phrases: [
+      { easy: "A countdown device limiting how long a basketball team can hold possession", medium: "Basketball possession countdown device", hard: "Possession countdown", answer: "Shot clock" },
+      { easy: "A small thick-bottomed tumbler used for serving a single measure of spirits", medium: "Small tumbler for a single spirits measure", hard: "Spirits tumbler", answer: "Shot glass" },
+      { easy: "A field event where athletes heave a heavy iron sphere for distance", medium: "Field event heaving a heavy iron sphere", hard: "Iron sphere heave", answer: "Shot put" },
+      { easy: "An unexpected opportunity to achieve something you've been aiming for", medium: "Unexpected opportunity you've aimed for", hard: "Unexpected opportunity", answer: "Shot at glory" },
+      { easy: "A detailed itinerary of camera setups planned for a film or video production", medium: "Camera setup itinerary for film production", hard: "Film camera itinerary", answer: "Shot list" },
+      { easy: "An attempt on goal in soccer that forces the keeper to make a save", medium: "Soccer attempt forcing a keeper save", hard: "Goal-bound attempt", answer: "Shot on target" },
+      { easy: "The sound of a weapon discharging in a military or law enforcement setting", medium: "Sound of a weapon discharging", hard: "Weapon discharge sound", answer: "Shot fired" },
+      { easy: "A hypodermic injection administered to protect against disease", medium: "Protective hypodermic injection", hard: "Protective injection", answer: "Shot vaccination" },
+      { easy: "A single captured frame taken by a professional or amateur with a camera", medium: "Single captured frame by a camera user", hard: "Single captured frame", answer: "Shot image" },
+      { easy: "A bar activity where players toss small metal projectiles at a marked board", medium: "Bar activity tossing metal projectiles at a board", hard: "Projectile-tossing activity", answer: "Shot challenge" }
     ]
   }
 ];
