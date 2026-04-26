@@ -9,7 +9,7 @@ const CARDS = [
       { easy: "Person who runs toward burning buildings", medium: "Runs toward the flames", hard: "Flame chaser", answer: "Firefighter" },
       { easy: "Outdoor gathering spot for warmth and cooking at a campsite", medium: "Campsite warmth circle", hard: "Ember circle", answer: "Fire pit" },
       { easy: "When everyone evacuates a building during an emergency", medium: "Emergency building evacuation", hard: "Evacuation practice", answer: "Fire drill" },
-      { easy: "Weapon that shoots a stream of burning fuel", medium: "Flame-throwing weapon", hard: "Blaze launcher", answer: "Flamethrower" },
+      { easy: "Weapon that shoots a stream of burning fuel", medium: "Blaze-launching weapon", hard: "Blaze launcher", answer: "Fire thrower" },
       { easy: "Orange-red gemstone that seems to glow from within", medium: "Gemstone that glows like embers", hard: "Volcanic gem", answer: "Fire opal" },
       { easy: "Safety device on a wall that alerts everyone in the building", medium: "Wall-mounted emergency siren", hard: "Pull station", answer: "Fire alarm" },
       { easy: "Large emergency vehicle with ladders and hoses", medium: "Emergency response vehicle", hard: "Blaze rig", answer: "Fire truck" },
@@ -44,7 +44,7 @@ const CARDS = [
     phrases: [
       { easy: "Area behind the stage where performers wait before going on", medium: "Waiting area for performers", hard: "Wings", answer: "Backstage" },
       { easy: "Outdoor area behind a house where you might have a barbecue", medium: "Rear yard of a home", hard: "Behind the house", answer: "Backyard" },
-      { easy: "A reflective surface inside a car that shows what's behind you", medium: "Interior reflector for rear visibility", hard: "Rear reflector", answer: "Rearview mirror" },
+      { easy: "A reflective surface inside a car that shows what's behind you", medium: "Interior reflector for rear visibility", hard: "Rear reflector", answer: "Back mirror" },
       { easy: "When an old habit returns after you thought you quit", medium: "Habit that returns", hard: "Relapse", answer: "Backslide" },
       { easy: "The rear entrance to a building, often used by staff", medium: "Rear building entrance", hard: "Service entry", answer: "Back door" },
       { easy: "Pack you carry on your shoulders for hiking or school books", medium: "Shoulder-carried bag", hard: "Rucksack", answer: "Backpack" },
@@ -62,13 +62,13 @@ const CARDS = [
     phrases: [
       { easy: "Short rest period during the workday to grab a drink", medium: "Mid-shift beverage pause", hard: "Cubicle respite", answer: "Break time" },
       { easy: "When an ocean wave folds over and crashes near the shore", medium: "When ocean water curls over", hard: "Wave curl", answer: "Break point" },
-      { easy: "Dawn of a new day when the sun first appears", medium: "First glow of morning", hard: "Dawn's edge", answer: "Daybreak" },
+      { easy: "When the sun first appears and morning begins", medium: "First glow of morning", hard: "Dawn's edge", answer: "Daybreak" },
       { easy: "A sudden discovery that completely changes how things work", medium: "Radical discovery event", hard: "Paradigm shift", answer: "Breakthrough" },
-      { easy: "A crack or fracture in the skeletal structure after a bad fall", medium: "Fractured limb", hard: "Fracture", answer: "Broken bone" },
+      { easy: "A crack or fracture in the skeletal structure after a bad fall", medium: "Fractured limb", hard: "Fracture", answer: "Break a bone" },
       { easy: "When a romantic partnership comes to an end", medium: "End of a romance", hard: "Split", answer: "Breakup" },
       { easy: "The moment a news story first becomes public knowledge", medium: "When news first surfaces", hard: "Story debut", answer: "Newsbreak" },
       { easy: "An escape from a prison or locked facility", medium: "Jail escape", hard: "Prison bust-out", answer: "Breakout" },
-      { easy: "A quick pause during a long road trip to stretch your legs", medium: "Road trip pause", hard: "Highway respite", answer: "Rest stop" },
+      { easy: "A quick pause during a long road trip to stretch your legs", medium: "Road trip pause", hard: "Highway respite", answer: "Break stop" },
       { easy: "When someone gets extremely fortunate and finds unexpected success", medium: "Unexpected opportunity", hard: "Fortune's gift", answer: "Lucky break" }
     ]
   },
@@ -86,7 +86,7 @@ const CARDS = [
       { easy: "The hours between sunrise and sunset", medium: "Sunlit hours", hard: "Sun's watch", answer: "Daylight" },
       { easy: "An ordinary routine with nothing special happening", medium: "Unremarkable routine", hard: "Status quo", answer: "Everyday" },
       { easy: "Putting money aside for unexpected future expenses", medium: "Saving for emergencies", hard: "Stormy reserve", answer: "Rainy day" },
-      { easy: "A work schedule that happens while most people are asleep", medium: "After-hours work schedule", hard: "Owl schedule", answer: "Night shift" },
+      { easy: "A work schedule that happens while most people are asleep", medium: "After-hours work schedule", hard: "Owl schedule", answer: "Day shift" },
       { easy: "A special occasion worth looking forward to", medium: "Anticipated celebration", hard: "Red-letter moment", answer: "Big day" }
     ]
   },
@@ -104,7 +104,7 @@ const CARDS = [
       { easy: "A person who fixes things around the house using tools and skill", medium: "Skilled craftsperson", hard: "Fixer", answer: "Handyman" },
       { easy: "A purse carried by its short strap in your grip", medium: "Grip-carried bag", hard: "Carry tote", answer: "Handbag" },
       { easy: "A greeting where two people grip each other's fingers firmly", medium: "Formal grip greeting", hard: "Palm press", answer: "Handshake" },
-      { easy: "A knitted winter covering that keeps your fingers warm", medium: "Winter finger covering", hard: "Cold-weather mitt", answer: "Mitten" },
+      { easy: "A knitted winter covering that keeps your fingers warm", medium: "Winter finger covering", hard: "Cold-weather mitt", answer: "Hand warmer" },
       { easy: "A tool with a heavy metal head used for driving nails into wood", medium: "Nail-driving tool", hard: "Pound tool", answer: "Hand hammer" }
     ]
   },
@@ -114,11 +114,11 @@ const CARDS = [
     buzzword: "RUN",
     category: "Sports & Games",
     phrases: [
-      { easy: "A long-distance race covering 26.2 miles", medium: "Twenty-six mile race", hard: "Endurance race", answer: "Marathon" },
+      { easy: "A long-distance race covering 26.2 miles", medium: "Twenty-six mile race", hard: "Endurance race", answer: "Fun run" },
       { easy: "What Gump famously kept doing across the country in a movie", medium: "Famous movie instruction to keep moving", hard: "Gump's directive", answer: "Run Forrest" },
       { easy: "When your nasal passages drip during a cold", medium: "Dripping nasal passage from illness", hard: "Sinus drip", answer: "Runny nose" },
       { easy: "A full practice session before a live theater performance", medium: "Theater practice session", hard: "Dress session", answer: "Run-through" },
-      { easy: "A series of consecutive victories in sports or gambling", medium: "Consecutive victories in a row", hard: "Victory run", answer: "Winning streak" },
+      { easy: "A series of consecutive victories in sports or gambling", medium: "Consecutive victories in a row", hard: "Victory streak", answer: "Run of luck" },
       { easy: "A quick errand to the store for a few items", medium: "Brief shopping trip", hard: "Quick errand", answer: "Run out" },
       { easy: "When a baseball player rounds all the bases and scores", medium: "Circling all bases in baseball", hard: "Four-base sprint", answer: "Home run" },
       { easy: "A tear in hosiery that travels downward", medium: "Snagged hosiery tear", hard: "Hosiery snag", answer: "Run in stocking" },
@@ -152,7 +152,7 @@ const CARDS = [
     phrases: [
       { easy: "A physician who specializes in treating ankles and heels", medium: "Podiatry specialist", hard: "Ankle physician", answer: "Foot doctor" },
       { easy: "What protects your soles when you step outside", medium: "Sole protection", hard: "Tread cover", answer: "Footwear" },
-      { easy: "A leisurely stroll along the sandy shore near the ocean", medium: "Sandy shoreline stroll", hard: "Coastal stroll", answer: "Beach walk" },
+      { easy: "A leisurely stroll along the sandy shore near the ocean", medium: "Sandy shoreline stroll", hard: "Coastal stroll", answer: "Foot patrol" },
       { easy: "A small reference at the bottom of a page with extra information", medium: "Bottom-of-page reference", hard: "Page-bottom note", answer: "Footnote" },
       { easy: "A measurement equal to twelve inches", medium: "Twelve-inch unit", hard: "Yard fraction", answer: "Foot" },
       { easy: "An impression left behind in mud or sand after someone walks by", medium: "Walking impression", hard: "Tread mark", answer: "Footprint" },
@@ -204,8 +204,8 @@ const CARDS = [
     buzzword: "STAR",
     category: "Pop Culture & Media",
     phrases: [
-      { easy: "A pink terrazzo plaque on a Hollywood boulevard honoring a celebrity", medium: "Hollywood boulevard plaque", hard: "Boulevard marker", answer: "Walk of fame" },
-      { easy: "Someone who obsessively follows every move of a famous person", medium: "Obsessive celebrity follower", hard: "Devoted follower", answer: "Stalker fan" },
+      { easy: "A pink terrazzo plaque on a Hollywood boulevard honoring a celebrity", medium: "Hollywood boulevard plaque", hard: "Boulevard marker", answer: "Star on the Walk" },
+      { easy: "Someone who obsessively follows every move of a famous person", medium: "Obsessive celebrity follower", hard: "Devoted follower", answer: "Stargazer" },
       { easy: "A premium rating with the highest level for hotels and restaurants", medium: "Premium rating system", hard: "Elite rating tier", answer: "Five-star" },
       { easy: "A sudden rise to fame and recognition in entertainment", medium: "Overnight celebrity ascent", hard: "Meteor rise", answer: "Stardom" },
       { easy: "A long-running sci-fi franchise with warp speed and pointy-eared Vulcans", medium: "Sci-fi franchise with Vulcans", hard: "Warp-speed saga", answer: "Star Trek" },
@@ -280,12 +280,12 @@ const CARDS = [
       { easy: "The person in charge of running a school", medium: "Leader of a school", hard: "Principal", answer: "Headmaster" },
       { easy: "A personal audio accessory that puts sound directly into your ears", medium: "Personal audio gear", hard: "Ear cans", answer: "Headphones" },
       { easy: "Moving forward quickly without looking where you're going", medium: "Rushing without caution", hard: "Reckless charge", answer: "Headlong" },
-      { easy: "The very first position in a long queue of people waiting", medium: "Leading position in the queue", hard: "Queue lead", answer: "Front of the line" },
+      { easy: "The very first position in a long queue of people waiting", medium: "Leading position in the queue", hard: "Queue lead", answer: "Head of the line" },
       { easy: "A leader who guides a team or organization with authority", medium: "Team or org leader", hard: "Top executive", answer: "Head honcho" },
       { easy: "To confront a problem or challenge directly without avoiding it", medium: "Face a problem directly", hard: "Direct confrontation", answer: "Head-on" },
       { easy: "The main act scheduled to perform at a concert or festival", medium: "Main act at a concert", hard: "Top bill", answer: "Headliner" },
       { easy: "An advantage given at the beginning of a race or competition", medium: "Beginning advantage in a race", hard: "Early lead", answer: "Head start" },
-      { easy: "The overhead interior surface that covers the top of a room", medium: "Upper room surface", hard: "Overhead panel", answer: "Ceiling" }
+      { easy: "The vertical panel at the top of a bed where you rest your skull", medium: "Bed-top rest panel", hard: "Bed rest", answer: "Headboard" }
     ]
   },
 
@@ -296,12 +296,12 @@ const CARDS = [
     phrases: [
       { easy: "A physician who examines your vision and prescribes corrective lenses", medium: "Vision specialist", hard: "Optometrist", answer: "Eye doctor" },
       { easy: "Makeup applied to the edges of your eyelids for definition", medium: "Lid-defining cosmetic", hard: "Pencil cosmetic", answer: "Eyeliner" },
-      { easy: "A brief rain shower while the sun is still shining brightly", medium: "Rain during sunshine", hard: "Sunlit shower", answer: "Sunshower" },
-      { easy: "The colored ring around your pupil that controls how much light enters", medium: "Colored membrane around the pupil", hard: "Pupil border", answer: "Iris" },
-      { easy: "A tiny painful red bump on the edge of your lid that stings when you blink", medium: "Painful lid bump", hard: "Lid cyst", answer: "Stye" },
+      { easy: "The calm center of a violent tropical cyclone", medium: "Calm center of a hurricane", hard: "Cyclone center", answer: "Eye of the storm" },
+      { easy: "The colored ring around your pupil that controls how much light enters", medium: "Colored membrane around the pupil", hard: "Pupil border", answer: "Eyeball" },
+      { easy: "A tiny painful red sore on the edge of your lid that stings when you blink", medium: "Painful lid sore", hard: "Lid cyst", answer: "Eyelid bump" },
       { easy: "A pair of lenses worn on the face to improve vision", medium: "Corrective lenses on the face", hard: "Optical wear", answer: "Eyeglasses" },
       { easy: "Watching something closely and noticing every small detail", medium: "Observing carefully", hard: "Keen observation", answer: "Eagle eye" },
-      { easy: "A natural opening in the roof that lets sunshine into a room from above", medium: "Overhead light opening", hard: "Ceiling window", answer: "Skylight" },
+      { easy: "A natural opening in the roof that lets sunshine into a room from above", medium: "Roof light opening", hard: "Ceiling opening", answer: "Eyebrow window" },
       { easy: "To watch something very carefully and not miss any changes", medium: "Observe closely", hard: "Monitor closely", answer: "Keep an eye on" },
       { easy: "A glance across a room that shows romantic interest", medium: "Romantic glance across a room", hard: "Flirtatious gaze", answer: "Eye contact" }
     ]
