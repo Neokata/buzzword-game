@@ -679,6 +679,18 @@ html, body {
 .clue-result.correct-result { color: var(--correct); }
 .clue-result.passed-result { color: var(--pass); }
 
+.clue-answer {
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 600;
+  font-family: 'Space Grotesk', sans-serif;
+  margin-top: 4px;
+  letter-spacing: 0.5px;
+}
+.clue-answer.revealed {
+  color: var(--correct);
+}
+
 /* Play Footer */
 .play-footer {
   padding: 12px 20px 24px;
@@ -981,6 +993,14 @@ html, body {
 .steal-clue {
   font-size: 18px;
   color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.steal-answer {
+  font-size: 14px;
+  color: var(--accent);
+  font-weight: 600;
+  font-family: 'Space Grotesk', sans-serif;
   margin-bottom: 8px;
 }
 

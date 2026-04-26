@@ -99,6 +99,7 @@ const state = {
   categories: [...CATEGORIES],
   timerEnabled: true,
   passesEnabled: true,
+  showAnswers: true,
   teams: [
     { name: 'Team 1', score: 0 },
     { name: 'Team 2', score: 0 }
@@ -136,6 +137,7 @@ function startSetup() {
   state.categories = [...CATEGORIES];
   state.timerEnabled = true;
   state.passesEnabled = true;
+  state.showAnswers = true;
   state.roundTime = 45;
   state.winScore = 50;
   state.teams = [
@@ -171,14 +173,17 @@ function selectDifficulty(d) {
 function toggleOption(option) {
   if (option === 'timer') state.timerEnabled = !state.timerEnabled;
   if (option === 'passes') state.passesEnabled = !state.passesEnabled;
+  if (option === 'answers') state.showAnswers = !state.showAnswers;
   renderOptionToggles();
 }
 
 function renderOptionToggles() {
   const timerEl = document.getElementById('toggle-timer');
   const passesEl = document.getElementById('toggle-passes');
+  const answersEl = document.getElementById('toggle-answers');
   timerEl.classList.toggle('active', state.timerEnabled);
   passesEl.classList.toggle('active', state.passesEnabled);
+  if (answersEl) answersEl.classList.toggle('active', state.showAnswers);
 
   const timeSelector = document.getElementById('time-selector');
   if (timeSelector) {
@@ -214,6 +219,10 @@ function renderScoreSelector() {
   });
 }
 
+function getFilteredCards(difficulty, categories) {
+  return CARDS.filter(c => categories.includes(c.category));
+}
+
 function renderCardCount() {
   const count = getFilteredCards(state.difficulty, state.categories).length;
   const el = document.getElementById('card-count');
@@ -227,7 +236,7 @@ function renderCategories() {
   container.innerHTML = '';
 
   CATEGORIES.forEach(cat => {
-    const count = CARDS.filter(c => c.category === cat && c.difficulty === state.difficulty).length;
+    const count = CARDS.filter(c => c.category === cat).length;
     const active = state.categories.includes(cat);
     const div = document.createElement('div');
     div.className = `category-toggle${active ? ' active' : ''}`;
@@ -396,7 +405,8 @@ function renderClues() {
     const div = document.createElement('div');
     div.className = `clue-card ${statusClass}`;
 
-    const clueHtml = phrase.clue.replace(
+    const clueText = phrase[state.difficulty] || phrase.easy;
+    const clueHtml = clueText.replace(
       new RegExp(phrase.answer.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'),
       '<span class="blank">____</span>'
     );
@@ -410,9 +420,16 @@ function renderClues() {
       resultHtml = '<span class="clue-result stolen-result">Stolen!</span>';
     }
 
+    let answerHtml = '';
+    if (state.showAnswers) {
+      const answered = result === 'correct' || result === 'stolen';
+      answerHtml = `<div class="clue-answer${answered ? ' revealed' : ''}">${phrase.answer}</div>`;
+    }
+
     div.innerHTML = `
       <div class="clue-number">${i + 1}</div>
       <div class="clue-text">${clueHtml}</div>
+      ${answerHtml}
       ${resultHtml}
     `;
     area.appendChild(div);
@@ -468,7 +485,15 @@ function renderStealPrompt() {
   const phrase = state.currentCard.phrases[state.stealClueIndex];
 
   document.getElementById('steal-team-name').textContent = stealTeam.name;
-  document.getElementById('steal-clue-text').textContent = phrase.clue;
+  const clueText = phrase[state.difficulty] || phrase.easy;
+  document.getElementById('steal-clue-text').textContent = clueText;
+  const stealAnswerEl = document.getElementById('steal-answer-text');
+  if (state.showAnswers && stealAnswerEl) {
+    stealAnswerEl.textContent = phrase.answer;
+    stealAnswerEl.style.display = '';
+  } else if (stealAnswerEl) {
+    stealAnswerEl.style.display = 'none';
+  }
   document.getElementById('steal-buzzword').textContent = state.currentCard.buzzword;
   overlay.style.display = 'flex';
 
@@ -609,7 +634,7 @@ function endRound() {
     buzzword: state.currentCard.buzzword,
     score: state.roundScore,
     results: [...state.roundResults],
-    phrases: state.currentCard.phrases.map(p => p.clue)
+    phrases: state.currentCard.phrases.map(p => ({ clue: p[state.difficulty] || p.easy, answer: p.answer }))
   });
 
   renderRoundSummary();
@@ -630,10 +655,11 @@ function renderRoundSummary() {
     const result = state.roundResults[i];
     const div = document.createElement('div');
     const isCorrect = result === 'correct';
+    const clueText = phrase[state.difficulty] || phrase.easy;
     div.className = `round-answer ${isCorrect ? 'ra-correct' : 'ra-passed'}`;
     div.innerHTML = `
       <span class="ra-icon">${isCorrect ? '✓' : '—'}</span>
-      <span class="ra-text"><strong>${phrase.answer}</strong> ${phrase.clue.replace(new RegExp(phrase.answer.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), '____')}</span>
+      <span class="ra-text"><strong>${phrase.answer}</strong> ${clueText.replace(new RegExp(phrase.answer.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), '____')}</span>
     `;
     answersEl.appendChild(div);
   });
