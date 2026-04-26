@@ -733,12 +733,12 @@ const CARDS = [
       { easy: "The soft spongy tissue inside a skeleton that manufactures blood cells", medium: "Blood-cell-producing tissue inside skeletons", hard: "Cell factory inside skeleton", answer: "Bone marrow" },
       { easy: "A person whose hobby is gathering and identifying skeletal fragments", medium: "Gatherer of skeletal fragments", hard: "Fragment gatherer", answer: "Bone collector" },
       { easy: "Fine porcelain dinnerware originally made with ash from animal remains", medium: "Porcelain dinnerware made with ash from remains", hard: "Ash-based porcelain", answer: "Bone china" },
-      { easy: "Extremely lazy and unwilling to exert any effort whatsoever", medium: "Extremely lazy and effort-averse", hard: "Completely idle", answer: "Bone-idle" },
+      { easy: "Extremely lazy and unwilling to exert any effort whatsoever", medium: "Extremely lazy and effort-averse", hard: "Completely indolent", answer: "Bone-idle" },
       { easy: "An issue or topic that causes ongoing arguments between people", medium: "Topic causing ongoing arguments", hard: "Disputed topic", answer: "Bone of contention" },
-      { easy: "The rigid framework of vertebrate animals providing support and form", medium: "Rigid vertebrate support framework", hard: "Skeletal framework", answer: "Bone density" },
+      { easy: "The measurement of how compact and solid the skeletal tissue is", medium: "Compactness measurement of skeletal tissue", hard: "Skeletal compactness", answer: "Bone density" },
       { easy: "A sharp fragment that breaks off when a skeletal piece fractures", medium: "Sharp fragment from a fractured skeletal piece", hard: "Fracture fragment", answer: "Bone shard" },
       { easy: "A dull aching soreness deep within the skeletal system", medium: "Dull aching soreness within the skeleton", hard: "Deep skeletal soreness", answer: "Bone ache" },
-      { easy: "The connective tissue linking two skeletal segments at a joint", medium: "Connective tissue at a skeletal joint", hard: "Joint connector", answer: "Bone ligament" },
+      { easy: "The strong fibrous cord connecting a skeletal segment to a muscle", medium: "Fibrous cord connecting skeleton to muscle", hard: "Muscle-skeleton connector", answer: "Bone tendon" },
       { easy: "A canine snack shaped like a femur or rib for gnawing", medium: "Canine snack shaped like a femur or rib", hard: "Femur-shaped gnaw", answer: "Bone chew" }
     ]
   },
@@ -755,7 +755,7 @@ const CARDS = [
       { easy: "Running or traveling over open terrain instead of following paved routes", medium: "Traveling over open terrain off-road", hard: "Off-road travel", answer: "Cross-country" },
       { easy: "A marked passage on a street where pedestrians can safely walk over", medium: "Marked pedestrian street passage", hard: "Pedestrian passage", answer: "Crosswalk" },
       { easy: "A red emblem on a white background indicating medical aid is available", medium: "Red-on-white medical aid emblem", hard: "Medical aid emblem", answer: "Cross symbol" },
-      { easy: "A needlework technique creating X-shaped stitches on fabric", medium: "X-stitch needlework on fabric", hard: "X-stitch craft", answer: "Cross-stitch" },
+      { easy: "A needlework technique creating X-shaped stitches on fabric", medium: "X-shaped needlework on fabric", hard: "X-pattern craft", answer: "Cross-stitch" },
       { easy: "To betray someone who trusted you by switching sides", medium: "Betray someone's trust by switching sides", hard: "Betray trust", answer: "Cross over" },
       { easy: "Irritable and easily annoyed about minor inconveniences", medium: "Easily annoyed by minor things", hard: "Easily annoyed", answer: "Cross-tempered" }
     ]
@@ -793,7 +793,7 @@ const CARDS = [
       { easy: "The athlete who carries the oval projectile toward the end zone on the gridiron", medium: "Athlete carrying the oval projectile on the gridiron", hard: "Projectile-carrying athlete", answer: "Ball carrier" },
       { easy: "A stadium or arena where a professional batting sport is played", medium: "Stadium for a professional batting sport", hard: "Batting sport stadium", answer: "Ballpark" },
       { easy: "A joint mechanism that allows rotation in multiple directions", medium: "Joint allowing multi-directional rotation", hard: "Rotating joint", answer: "Ball and socket" },
-      { easy: "A formal evening event featuring dancing and formal attire", medium: "Formal evening event with dancing", hard: "Formal dance event", answer: "Ball night" }
+      { easy: "A formal evening dance event where guests celebrate in style", medium: "Formal evening dance celebration", hard: "Formal dance celebration", answer: "Ball gala" }
     ]
   },
 
@@ -804,13 +804,13 @@ const CARDS = [
     phrases: [
       { easy: "The legendary rock group with Freddie Mercury known for Bohemian Rhapsody", medium: "Freddie Mercury's legendary rock group", hard: "Mercury's rock group", answer: "Queen band" },
       { easy: "The long-reigning British monarch who served from 1952 to 2022", medium: "British monarch reigning 1952-2022", hard: "Long-reigning monarch", answer: "Queen Elizabeth" },
-      { easy: "A playing piece in chess that can move any number of squares in any direction", medium: "Chess piece moving any direction freely", hard: "Versatile chess piece", answer: "Queen piece" },
+      { easy: "A playing figure in chess that can move any number of squares in any direction", medium: "Chess figure moving any direction freely", hard: "Versatile chess figure", answer: "Queen piece" },
       { easy: "A mattress dimension larger than full but smaller than king", medium: "Mattress between full and king in width", hard: "Mid-width mattress", answer: "Queen-size" },
       { easy: "The parent of a ruling female sovereign", medium: "Parent of a ruling female sovereign", hard: "Sovereign's parent", answer: "Queen mother" },
       { easy: "A playing card featuring a female royal as its face", medium: "Playing card with a female royal face", hard: "Female royal card", answer: "Queen of hearts" },
-      { easy: "A large and impressive residence befitting female royalty", medium: "Impressive residence for female royalty", hard: "Royal residence", answer: "Queen house" },
+      { easy: "A large and impressive residence befitting female royalty", medium: "Impressive residence for female royalty", hard: "Royal residence", answer: "Queen estate" },
       { easy: "A musical track celebrating women who rule with confidence and style", medium: "Track celebrating confident ruling women", hard: "Ruling-women anthem", answer: "Queen song" },
-      { easy: "A competitive event where drag artists perform and compete for a crown", medium: "Drag artist competition for a crown", hard: "Drag crown competition", answer: "Queen pageant" },
+      { easy: "A competitive event where drag artists perform and vie for a crown", medium: "Drag artist contest for a crown", hard: "Drag crown contest", answer: "Queen competition" },
       { easy: "The spouse of a ruling male sovereign", medium: "Spouse of a ruling male sovereign", hard: "Sovereign's spouse", answer: "Queen consort" }
     ]
   },
@@ -825,11 +825,11 @@ const CARDS = [
       { easy: "A patrol officer who walks a regular neighborhood route on foot", medium: "Patrol officer on a regular foot route", hard: "Foot patrol officer", answer: "Beat cop" },
       { easy: "A head-to-head contest where producers play their best instrumental loops", medium: "Head-to-head producer contest with loops", hard: "Producer contest", answer: "Beat battle" },
       { easy: "A journalist assigned to cover a specific topic area like education or crime", medium: "Journalist covering a specific topic area", hard: "Topic-assigned journalist", answer: "Beat reporter" },
-      { easy: "Worn out and exhausted after a grueling day of work", medium: "Worn out after grueling work", hard: "Exhausted", answer: "Beat down" },
+      { easy: "Worn out and exhausted after a grueling day of work", medium: "Worn out after grueling work", hard: "Exhausted", answer: "Beat tired" },
       { easy: "The 1950s literary movement of Kerouac and Ginsberg rejecting mainstream values", medium: "Kerouac and Ginsberg's 1950s literary movement", hard: "50s literary movement", answer: "Beat generation" },
       { easy: "An electronic instrumental composition used as backing for a vocalist", medium: "Electronic instrumental for vocal backing", hard: "Vocal backing instrumental", answer: "Beat track" },
-      { easy: "The steady rhythmic pulse you tap your foot to in a song", medium: "Steady pulse you tap your foot to", hard: "Steady pulse", answer: "Beat tempo" },
-      { easy: "To defeat an opponent by outscoring them in a competition", medium: "Defeat an opponent by outscoring them", hard: "Outscore opponent", answer: "Beat up" }
+      { easy: "The steady rhythmic pulse you tap your foot to in a song", medium: "Steady pulse you tap your foot to", hard: "Steady pulse", answer: "Beat groove" },
+      { easy: "To win against an opponent by scoring higher in a competition", medium: "Win by scoring higher than an opponent", hard: "Outscore", answer: "Beat it" }
     ]
   },
 
@@ -879,11 +879,11 @@ const CARDS = [
       { easy: "A small folding blade tucked inside a writing instrument for emergencies", medium: "Folding blade inside a writing instrument", hard: "Blade in a writer", answer: "Pen knife" },
       { easy: "The sharp metal tip of a fountain instrument that touches the page", medium: "Sharp metal tip of a fountain instrument", hard: "Fountain instrument tip", answer: "Pen nib" },
       { easy: "To schedule or confirm an appointment firmly in your calendar", medium: "Confirm an appointment firmly", hard: "Confirm firmly", answer: "Pen in" },
-      { easy: "A fenced enclosure where farmers keep livestock contained", medium: "Fenced enclosure for containing livestock", hard: "Livestock enclosure", answer: "Pen for animals" },
+      { easy: "A fenced enclosure where farmers keep livestock contained", medium: "Fenced enclosure for containing livestock", hard: "Livestock enclosure", answer: "Pen corral" },
       { easy: "A correctional facility where inmates serve their sentences", medium: "Correctional facility for serving sentences", hard: "Inmate facility", answer: "Penitentiary" },
       { easy: "A writing instrument maker that produces premium fountain instruments", medium: "Premium fountain instrument maker", hard: "Premium writing maker", answer: "Pen brand" },
       { easy: "The small removable refill inside a fountain instrument that holds ink", medium: "Removable ink refill inside a fountain instrument", hard: "Fountain ink refill", answer: "Pen cartridge" },
-      { easy: "An enclosed area adjacent to a barn for keeping farm animals", medium: "Enclosed area near a barn for animals", hard: "Barn enclosure", answer: "Pen yard" }
+      { easy: "An enclosed area adjacent to a barn for keeping farm animals", medium: "Enclosed area near a barn for animals", hard: "Barn enclosure", answer: "Pen stall" }
     ]
   },
 
@@ -894,13 +894,13 @@ const CARDS = [
     phrases: [
       { easy: "So completely dark you cannot see your hand in front of your face", medium: "So dark nothing is visible at all", hard: "Absolute darkness", answer: "Pitch black" },
       { easy: "A visual presentation entrepreneurs use to persuade investors to fund their startup", medium: "Visual presentation to persuade investors", hard: "Investor persuasion slides", answer: "Pitch deck" },
-      { easy: "The playing field where a soccer or rugby match takes place", medium: "Playing field for soccer or rugby", hard: "Soccer field", answer: "Pitch field" },
+      { easy: "The grass area where a soccer or rugby match takes place", medium: "Grass area for soccer or rugby", hard: "Soccer grass", answer: "Pitch surface" },
       { easy: "The total number of throws a hurler has made during a match", medium: "Total throws by a hurler in a match", hard: "Hurler throw total", answer: "Pitch count" },
       { easy: "Flawlessly accurate in musical tone without any deviation", medium: "Flawless musical tone accuracy", hard: "Tone accuracy", answer: "Pitch perfect" },
       { easy: "A sales presentation where you try to convince a client to buy your product", medium: "Sales presentation to convince a client", hard: "Client persuasion", answer: "Pitch meeting" },
       { easy: "The 2012 a cappella comedy film about a college singing group", medium: "2012 a cappella college movie", hard: "A cappella movie", answer: "Pitch Perfect" },
       { easy: "To erect a temporary outdoor shelter for camping", medium: "Erect a temporary outdoor shelter", hard: "Erect outdoor shelter", answer: "Pitch tent" },
-      { easy: "A fast throw in cricket that bounces near the batter's feet", medium: "Cricket throw bouncing near the feet", hard: "Cricket foot bounce", answer: "Pitch up" },
+      { easy: "A fast throw in cricket that bounces near the batter's feet", medium: "Cricket throw bouncing near the feet", hard: "Cricket foot bounce", answer: "Pitch delivery" },
       { easy: "The degree of steepness or incline of a roof's slope", medium: "Steepness incline of a roof", hard: "Roof steepness", answer: "Pitch angle" }
     ]
   },
@@ -947,15 +947,15 @@ const CARDS = [
     category: "Geography",
     phrases: [
       { easy: "The famous enclosed Venetian walkway connecting a palace to a prison", medium: "Enclosed Venetian walkway from palace to prison", hard: "Venice palace-prison walk", answer: "Bridge of Sighs" },
-      { easy: "A covered passage linking two structures over a street or gap", medium: "Covered passage linking structures over a gap", hard: "Structure-linking passage", answer: "Bridge walk" },
+      { easy: "A covered passage connecting two structures over a street or gap", medium: "Covered passage connecting structures over a gap", hard: "Structure-connecting passage", answer: "Bridge link" },
       { easy: "A trick-taking card activity where four participants play in two partnerships", medium: "Trick-taking activity with four in partnerships", hard: "Partnership trick activity", answer: "Bridge game" },
       { easy: "A dental prosthesis that fills the gap left by a missing molar", medium: "Dental prosthesis for a missing molar gap", hard: "Molar gap prosthesis", answer: "Bridge work" },
       { easy: "The command center on a vessel from which the captain navigates", medium: "Vessel's command center for navigation", hard: "Navigation command center", answer: "Bridge deck" },
-      { easy: "A structural span that conveys water across a valley like a Roman-era channel", medium: "Span conveying water across a valley", hard: "Water-conveying span", answer: "Bridge aqueduct" },
-      { easy: "A prosthetic mouth appliance replacing one or more missing teeth", medium: "Prosthetic mouth appliance for missing teeth", hard: "Tooth replacement", answer: "Bridge dental" },
+      { easy: "A structural span that conveys water across a valley like a Roman-era channel", medium: "Span conveying water across a valley", hard: "Water-conveying span", answer: "Bridge viaduct" },
+      { easy: "An artificial mouth appliance replacing one or more missing teeth", medium: "Artificial mouth appliance for missing teeth", hard: "Tooth replacement", answer: "Bridge prosthetic" },
       { easy: "A transitional sonic passage connecting a verse to a chorus", medium: "Transitional passage connecting verse to chorus", hard: "Verse-chorus passage", answer: "Bridge section" },
-      { easy: "A geologically formed rock arch spanning a canyon gap", medium: "Geologic rock arch spanning a canyon", hard: "Canyon rock arch", answer: "Bridge natural" },
-      { easy: "The iconic orange suspension structure spanning the entrance to San Francisco Bay", medium: "Orange suspension structure at San Francisco Bay", hard: "SF Bay orange span", answer: "Bridge golden" }
+      { easy: "A geologically formed rock formation spanning a canyon gap", medium: "Geologic rock formation spanning a canyon", hard: "Canyon rock formation", answer: "Bridge arch" },
+      { easy: "The iconic orange suspension structure spanning the entrance to San Francisco Bay", medium: "Orange suspension structure at San Francisco Bay", hard: "SF Bay suspension", answer: "Bridge crossing" }
     ]
   },
 
@@ -967,13 +967,13 @@ const CARDS = [
       { easy: "The mathematical formula describing a quantum particle's probability distribution", medium: "Formula for quantum probability distribution", hard: "Quantum probability formula", answer: "Wave function" },
       { easy: "A friendly hand gesture to acknowledge someone from a distance", medium: "Hand gesture acknowledging someone from afar", hard: "Distant hand greeting", answer: "Wave hello" },
       { easy: "The distance between two consecutive peaks of a repeating oscillation", medium: "Distance between consecutive oscillation peaks", hard: "Peak-to-peak distance", answer: "Wave length" },
-      { easy: "A ripple in spacetime caused by the collision of massive cosmic objects", medium: "Spacetime ripple from cosmic collisions", hard: "Spacetime ripple", answer: "Wave gravity" },
+      { easy: "A disturbance in spacetime caused by the collision of massive cosmic objects", medium: "Spacetime disturbance from cosmic collisions", hard: "Spacetime disturbance", answer: "Wave ripple" },
       { easy: "A device producing oscillating signals for laboratory experiments", medium: "Oscillating signal producer for experiments", hard: "Oscillation signal source", answer: "Wave generator" },
       { easy: "The undulating movement of ocean swells approaching the coastline", medium: "Undulating ocean swells approaching shore", hard: "Ocean swells", answer: "Wave motion" },
       { easy: "A classical physics model explaining light and sound as oscillatory disturbances", medium: "Classical model of oscillatory disturbances", hard: "Oscillation model", answer: "Wave theory" },
       { easy: "The power carried by an oscillating disturbance through a medium", medium: "Power from an oscillating disturbance", hard: "Oscillation power", answer: "Wave energy" },
       { easy: "A disturbance that travels through matter transferring power without permanent displacement", medium: "Disturbance transferring power through matter", hard: "Power-transferring disturbance", answer: "Wave propagation" },
-      { easy: "The highest point of an oscillating curve above the equilibrium position", medium: "Highest point of an oscillation above equilibrium", hard: "Oscillation peak", answer: "Wave amplitude" }
+      { easy: "The height measurement of an oscillating curve from its resting position", medium: "Height of an oscillation from resting position", hard: "Oscillation height", answer: "Wave amplitude" }
     ]
   },
 
@@ -989,9 +989,9 @@ const CARDS = [
       { easy: "A detailed itinerary of camera setups planned for a film or video production", medium: "Camera setup itinerary for film production", hard: "Film camera itinerary", answer: "Shot list" },
       { easy: "An attempt on goal in soccer that forces the keeper to make a save", medium: "Soccer attempt forcing a keeper save", hard: "Goal-bound attempt", answer: "Shot on target" },
       { easy: "The sound of a weapon discharging in a military or law enforcement setting", medium: "Sound of a weapon discharging", hard: "Weapon discharge sound", answer: "Shot fired" },
-      { easy: "A hypodermic injection administered to protect against disease", medium: "Protective hypodermic injection", hard: "Protective injection", answer: "Shot vaccination" },
-      { easy: "A single captured frame taken by a professional or amateur with a camera", medium: "Single captured frame by a camera user", hard: "Single captured frame", answer: "Shot image" },
-      { easy: "A bar activity where players toss small metal projectiles at a marked board", medium: "Bar activity tossing metal projectiles at a board", hard: "Projectile-tossing activity", answer: "Shot challenge" }
+      { easy: "A hypodermic immunization administered to protect against disease", medium: "Protective hypodermic immunization", hard: "Protective immunization", answer: "Shot injection" },
+      { easy: "A single captured frame taken by a professional or amateur with a camera", medium: "Single captured frame by a camera user", hard: "Single captured frame", answer: "Shot snapshot" },
+      { easy: "A bar activity where players toss small metal projectiles at a marked board", medium: "Bar activity tossing metal projectiles at a board", hard: "Projectile-tossing activity", answer: "Shot attempt" }
     ]
   }
 ];
