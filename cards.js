@@ -993,6 +993,278 @@ const CARDS = [
       { easy: "A single captured frame taken by a professional or amateur with a camera", medium: "Single captured frame by a camera user", hard: "Single captured frame", answer: "Shot snapshot" },
       { easy: "A bar activity where players toss small metal projectiles at a marked board", medium: "Bar activity tossing metal projectiles at a board", hard: "Projectile-tossing activity", answer: "Shot attempt" }
     ]
+  },
+
+  // ===== BATCH 4: Cards 56–70 =====
+
+  // --- Card 56: DREAM ---
+  {
+    buzzword: "DREAM",
+    category: "Everyday Idioms",
+    phrases: [
+      { easy: "The best possible group of people assembled for a particular purpose", medium: "Best possible group assembled for a purpose", hard: "Ideal group", answer: "Dream team" },
+      { easy: "An ideal occupation that feels more like play than work", medium: "Occupation that feels like play", hard: "Ideal occupation", answer: "Dream job" },
+      { easy: "A perfect residence that represents everything you have ever wanted in a home", medium: "Perfect residence of one's fantasies", hard: "Perfect residence", answer: "Dream house" },
+      { easy: "A getaway destination you have always longed to visit but never have", medium: "Getaway destination always longed to visit", hard: "Longed-for getaway", answer: "Dream vacation" },
+      { easy: "A Native American webbed hoop believed to filter out bad visions during slumber", medium: "Native American webbed hoop filtering bad visions", hard: "Vision-filtering hoop", answer: "Dream catcher" },
+      { easy: "The national ethos that prosperity comes through hard effort and determination", medium: "National ethos of prosperity through effort", hard: "Prosperity ethos", answer: "American Dream" },
+      { easy: "An unrealistic fantasy with no chance of ever coming true", medium: "Unrealistic fantasy impossible to achieve", hard: "Impossible fantasy", answer: "Pipe dream" },
+      { easy: "A pleasant waking fantasy that distracts you from the present moment", medium: "Pleasant waking fantasy distracting from now", hard: "Waking fantasy", answer: "Daydream" },
+      { easy: "A traditional bedtime wish for someone to have restful slumber", medium: "Bedtime wish for restful slumber", hard: "Bedtime wish", answer: "Sweet dreams" },
+      { easy: "A film or TV scene depicting events happening while a character sleeps", medium: "Film scene depicting events during sleep", hard: "Sleep scene", answer: "Dream sequence" }
+    ]
+  },
+
+  // --- Card 57: FLOWER ---
+  {
+    buzzword: "FLOWER",
+    category: "Nature & Weather",
+    phrases: [
+      { easy: "A tall yellow-petaled plant that turns to track the daylight across the sky", medium: "Tall yellow plant tracking daylight", hard: "Daylight-tracking plant", answer: "Sunflower" },
+      { easy: "An uncultivated bloom growing freely in meadows and along roadsides", medium: "Uncultivated bloom growing freely in meadows", hard: "Free-growing bloom", answer: "Wildflower" },
+      { easy: "A landscaped planting area for decorative blooms in a yard", medium: "Landscaped area for decorative blooms", hard: "Bloom planting area", answer: "Flower bed" },
+      { easy: "A container made of ceramic or terracotta for growing container plants", medium: "Ceramic container for growing container plants", hard: "Plant holder", answer: "Flower pot" },
+      { easy: "A 1960s counterculture slogan promoting peace and nonviolence", medium: "1960s counterculture peace slogan", hard: "Peace slogan", answer: "Flower power" },
+      { easy: "A young wedding attendant who scatters petals down the aisle before the bride", medium: "Young attendant scattering petals at a wedding", hard: "Petal scatterer", answer: "Flower girl" },
+      { easy: "A decorative display of cut stems and greenery for ceremonies or gifts", medium: "Decorative display of cut stems for ceremonies", hard: "Stem display", answer: "Flower arrangement" },
+      { easy: "A retail establishment selling bouquets and corsages for special events", medium: "Retail establishment selling bouquets for events", hard: "Bouquet store", answer: "Flower shop" },
+      { easy: "A colorful soft leaf surrounding a bloom reproductive center", medium: "Colorful leaf surrounding a bloom center", hard: "Bloom leaf", answer: "Flower petal" },
+      { easy: "A hippie peacenik of the 1960s who advocated love and harmony", medium: "1960s hippie advocating love and peace", hard: "Hippie peacenik", answer: "Flower child" }
+    ]
+  },
+
+  // --- Card 58: FISH ---
+  {
+    buzzword: "FISH",
+    category: "Food & Drink",
+    phrases: [
+      { easy: "A classic British pub meal of battered cod and deep-fried potato strips", medium: "British battered cod with fried potatoes", hard: "Battered cod meal", answer: "Fish and chips" },
+      { easy: "A Baja-style tortilla filled with grilled or fried seafood and cabbage slaw", medium: "Baja tortilla with grilled seafood and slaw", hard: "Seafood tortilla", answer: "Fish taco" },
+      { easy: "A pungent fermented liquid condiment from Southeast Asian cuisine", medium: "Fermented Southeast Asian liquid condiment", hard: "Fermented condiment", answer: "Fish sauce" },
+      { easy: "A community dinner featuring breaded and deep-fried fillets often on Fridays", medium: "Community dinner of breaded deep-fried fillets", hard: "Fried fillet dinner", answer: "Fish fry" },
+      { easy: "A commercial venue selling fresh catches displayed on crushed ice", medium: "Place selling fresh catches on ice", hard: "Fresh catch seller", answer: "Fish market" },
+      { easy: "A frozen breaded rectangular fillet that bakes in the oven for an easy meal", medium: "Frozen breaded rectangular fillet for baking", hard: "Frozen breaded fillet", answer: "Fish stick" },
+      { easy: "A fried patty of minced seafood mixed with potato and seasonings", medium: "Fried patty of minced seafood and potato", hard: "Fried seafood patty", answer: "Fish cake" },
+      { easy: "A spherical glass container for keeping aquatic pets on a desk or shelf", medium: "Spherical glass container for aquatic pets", hard: "Glass aquatic sphere", answer: "Fish bowl" },
+      { easy: "A children card game about collecting the most matching pairs", medium: "Children card game collecting matching pairs", hard: "Pair-collecting game", answer: "Go fish" },
+      { easy: "A small outdoor water feature for keeping ornamental koi or carp", medium: "Outdoor water feature for ornamental carp", hard: "Ornamental pool", answer: "Fish pond" }
+    ]
+  },
+
+  // --- Card 59: MIND ---
+  {
+    buzzword: "MIND",
+    category: "Body & Health",
+    phrases: [
+      { easy: "A person who claims to perceive another unspoken thoughts without communication", medium: "Person perceiving unspoken thoughts", hard: "Thought perceiver", answer: "Mind reader" },
+      { easy: "A technique of manipulating someone thoughts or behavior without their consent", medium: "Manipulating another thoughts or behavior", hard: "Thought manipulation", answer: "Mind control" },
+      { easy: "The principle that willpower can overcome physical obstacles and pain", medium: "Willpower overcoming physical obstacles", hard: "Willpower over pain", answer: "Mind over matter" },
+      { easy: "A receptive attitude willing to consider new or different ideas", medium: "Receptive attitude toward different ideas", hard: "Receptive attitude", answer: "Open mind" },
+      { easy: "Psychological tactics used to manipulate confuse or undermine someone", medium: "Psychological tactics to manipulate or confuse", hard: "Psychological tactics", answer: "Mind games" },
+      { easy: "A state of being free from worry and emotional anxiety", medium: "State free from worry and anxiety", hard: "Worry-free state", answer: "Peace of mind" },
+      { easy: "The act of reversing a previous decision or switching your opinion", medium: "Reversing a previous decision or opinion", hard: "Decision reversal", answer: "Change of mind" },
+      { easy: "To remember and consider something important while making choices", medium: "Remember something important while deciding", hard: "Remember this", answer: "Keep in mind" },
+      { easy: "So astonishing it challenges your comprehension and leaves you stunned", medium: "So astonishing it challenges comprehension", hard: "Extremely astonishing", answer: "Mind blowing" },
+      { easy: "A prompt to behave with proper etiquette in social situations", medium: "Prompt to behave with proper etiquette", hard: "Etiquette prompt", answer: "Mind your manners" }
+    ]
+  },
+
+  // --- Card 60: KING ---
+  {
+    buzzword: "KING",
+    category: "Pop Culture & Media",
+    phrases: [
+      { easy: "A fast-food chain known for flame-grilled patties and the Whopper", medium: "Fast-food chain known for flame-grilled patties", hard: "Flame-grill chain", answer: "Burger King" },
+      { easy: "Disney 1994 animated film about a young feline ruler on the African savanna", medium: "Disney 1994 animated feline ruler film", hard: "Disney feline ruler", answer: "Lion King" },
+      { easy: "A classic movie about a giant ape climbing the Empire State Building", medium: "Classic movie about a giant ape on a skyscraper", hard: "Giant ape classic", answer: "King Kong" },
+      { easy: "A prolific author of horror fiction including The Shining and It", medium: "Prolific horror author of The Shining and It", hard: "Horror fiction author", answer: "Stephen King" },
+      { easy: "The current British monarch who ascended the throne in 2022", medium: "Current British monarch since 2022", hard: "British monarch", answer: "King Charles" },
+      { easy: "A title bestowed upon Michael Jackson for his dominance in mainstream music", medium: "Title for Michael Jackson musical dominance", hard: "Music title", answer: "King of Pop" },
+      { easy: "A male student elected as dance royalty at a high school formal", medium: "Male student elected as dance royalty", hard: "Dance royalty", answer: "Prom king" },
+      { easy: "An animated sitcom about a propane salesman in Texas created by Mike Judge", medium: "Animated Texas propane salesman sitcom", hard: "Texas propane sitcom", answer: "King of the Hill" },
+      { easy: "A famous Egyptian boy pharaoh whose intact tomb was discovered in 1922", medium: "Egyptian boy pharaoh with tomb found in 1922", hard: "Boy pharaoh", answer: "King Tut" },
+      { easy: "A performer who adopts masculine attire and mannerisms on stage", medium: "Performer adopting masculine attire on stage", hard: "Masculine performer", answer: "Drag king" }
+    ]
+  },
+
+  // --- Card 61: CHAIN ---
+  {
+    buzzword: "CHAIN",
+    category: "Everyday Idioms",
+    phrases: [
+      { easy: "A series of events where each one triggers the next like toppling dominoes", medium: "Events where each triggers the next", hard: "Sequential causation", answer: "Chain reaction" },
+      { easy: "A message that demands recipients forward copies to several other people", medium: "Message demanding recipients forward copies", hard: "Forward-demanding message", answer: "Chain letter" },
+      { easy: "A person who lights one cigarette immediately after finishing the last", medium: "Person lighting cigarettes one after another", hard: "Constant puffer", answer: "Chain smoker" },
+      { easy: "A hierarchy of predators and prey showing who eats whom in an ecosystem", medium: "Predator-prey hierarchy in an ecosystem", hard: "Predator-prey hierarchy", answer: "Food chain" },
+      { easy: "A network of steps from raw materials to consumer delivery in manufacturing", medium: "Manufacturing steps from materials to consumer", hard: "Manufacturing network", answer: "Supply chain" },
+      { easy: "An interlocking metal loop used in fencing or as jewelry", medium: "Interlocking metal loop for fencing or jewelry", hard: "Metal loop", answer: "Chain link" },
+      { easy: "A motorized cutting tool with a toothed rotating blade for felling trees", medium: "Motorized tool with toothed blade for trees", hard: "Motorized tree cutter", answer: "Chain saw" },
+      { easy: "A retail outlet operating under a shared corporate brand nationwide", medium: "Retail outlet under a shared corporate brand", hard: "Corporate-brand outlet", answer: "Chain store" },
+      { easy: "Slang for something excellent or wildly unrestrained and exciting", medium: "Slang for excellent or wildly unrestrained", hard: "Excellent slang", answer: "Off the chain" },
+      { easy: "A series of items connected in a loop like flowers strung together", medium: "Items connected in a loop or sequence", hard: "Looped connection", answer: "Daisy chain" }
+    ]
+  },
+
+  // --- Card 62: FIREWORK ---
+  {
+    buzzword: "FIREWORK",
+    category: "Music (2000+)",
+    phrases: [
+      { easy: "Katy Perry 2010 empowerment anthem about igniting your inner spark", medium: "Katy Perry 2010 empowerment anthem", hard: "Perry empowerment anthem", answer: "Firework" },
+      { easy: "A July Fourth pyrotechnic spectacle lighting up the night sky over a city", medium: "July 4th pyrotechnic spectacle", hard: "July 4th spectacle", answer: "Fireworks show" },
+      { easy: "A municipal exhibition of rockets and roman candles for a holiday crowd", medium: "Municipal exhibition of rockets for a crowd", hard: "Rocket exhibition", answer: "Fireworks display" },
+      { easy: "A community celebration featuring choreographed nighttime pyrotechnics over water", medium: "Community celebration with choreographed pyrotechnics", hard: "Pyrotechnic celebration", answer: "Fireworks festival" },
+      { easy: "The grand concluding burst at the end of a pyrotechnic event", medium: "Grand concluding burst of a pyrotechnic event", hard: "Concluding burst", answer: "Fireworks finale" },
+      { easy: "An injury caused by mishandling explosive celebratory devices", medium: "Injury from mishandling explosive celebratory devices", hard: "Explosive injury", answer: "Fireworks accident" },
+      { easy: "A temporary roadside retail tent selling pyrotechnics during summer", medium: "Seasonal roadside tent selling pyrotechnics", hard: "Seasonal pyrotechnic tent", answer: "Firework stand" },
+      { easy: "A midnight pyrotechnic celebration welcoming January 1st around the world", medium: "Midnight pyrotechnic celebration on January 1st", hard: "January 1st celebration", answer: "New Year fireworks" },
+      { easy: "An elaborate choreographed pyrotechnic performance synchronized to music", medium: "Choreographed pyrotechnic performance with music", hard: "Choreographed pyrotechnics", answer: "Fireworks extravaganza" },
+      { easy: "Guidelines and precautions for preventing injuries from explosive novelties", medium: "Guidelines preventing injuries from explosive novelties", hard: "Explosive precaution rules", answer: "Fireworks safety" }
+    ]
+  },
+
+  // --- Card 63: BERRY ---
+  {
+    buzzword: "BERRY",
+    category: "Food & Drink",
+    phrases: [
+      { easy: "A small sweet indigo fruit commonly used in muffins and pancakes", medium: "Sweet indigo fruit for muffins and pancakes", hard: "Indigo muffin fruit", answer: "Blueberry" },
+      { easy: "A bright red fruit with tiny seeds dotting its outer surface", medium: "Red fruit with tiny seeds on its surface", hard: "Seeded red fruit", answer: "Strawberry" },
+      { easy: "A delicate red bramble fruit with a hollow center when picked", medium: "Delicate red bramble fruit with hollow center", hard: "Hollow bramble fruit", answer: "Raspberry" },
+      { easy: "A dark purple hedgerow fruit used in jams and crumbles", medium: "Dark purple hedgerow fruit for jams", hard: "Purple hedgerow fruit", answer: "Blackberry" },
+      { easy: "A tart red fruit served as a sauce at Thanksgiving dinners", medium: "Tart red fruit served at Thanksgiving", hard: "Thanksgiving fruit", answer: "Cranberry" },
+      { easy: "A blended frozen drink of fruit and yogurt mixed until smooth", medium: "Blended frozen fruit and yogurt drink", hard: "Frozen fruit drink", answer: "Berry smoothie" },
+      { easy: "A baked pastry filled with small fruits and topped with a crust", medium: "Baked pastry filled with small fruits", hard: "Fruit-filled pastry", answer: "Berry pie" },
+      { easy: "A dessert of baked fruit under a crumbly butter-flour topping", medium: "Baked fruit under crumbly topping", hard: "Crumb-topped dessert", answer: "Berry crisp" },
+      { easy: "A thicket of bushes where small fruits grow for summer picking", medium: "Thicket of bushes for summer fruit picking", hard: "Fruit-picking thicket", answer: "Berry patch" },
+      { easy: "A warm-weather activity of gathering small fruits from bushes by hand", medium: "Gathering small fruits from bushes by hand", hard: "Fruit gathering activity", answer: "Berry picking" }
+    ]
+  },
+
+  // --- Card 64: CAMP ---
+  {
+    buzzword: "CAMP",
+    category: "Sports & Games",
+    phrases: [
+      { easy: "An intense pre-season athletic preparatory session where players prove themselves", medium: "Intense pre-season athletic preparatory session", hard: "Pre-season session", answer: "Training camp" },
+      { easy: "A rigorous military-style fitness program designed to build discipline fast", medium: "Rigorous military-style fitness program", hard: "Military fitness program", answer: "Boot camp" },
+      { easy: "A young leader who supervises kids and leads activities at a summer program", medium: "Young leader supervising kids at a summer program", hard: "Summer program leader", answer: "Camp counselor" },
+      { easy: "An outdoor blaze for gathering and telling stories under the stars", medium: "Outdoor blaze for gathering and storytelling", hard: "Outdoor blaze", answer: "Campfire" },
+      { easy: "The starting point settlement for a mountain climbing expedition", medium: "Starting settlement for a climbing expedition", hard: "Expedition start", answer: "Base camp" },
+      { easy: "A park with designated spots for tents and RVs near nature trails", medium: "Park with spots for tents and RVs", hard: "RV and tent park", answer: "Campground" },
+      { easy: "An individual cleared area where hikers pitch their tent at the end of a trail", medium: "Cleared area where hikers pitch their tent", hard: "Tent area", answer: "Campsite" },
+      { easy: "A summer music program for marching musicians to practice routines", medium: "Summer music program for marching musicians", hard: "Musician program", answer: "Band camp" },
+      { easy: "A summer training program for chant and tumbling squads", medium: "Summer training for chant and tumbling squads", hard: "Chant squad training", answer: "Cheer camp" },
+      { easy: "The person who oversees all operations and staff at a summer program", medium: "Person overseeing operations at a summer program", hard: "Program overseer", answer: "Camp director" }
+    ]
+  },
+
+  // --- Card 65: GATE ---
+  {
+    buzzword: "GATE",
+    category: "Everyday Idioms",
+    phrases: [
+      { easy: "San Francisco famous orange suspension bridge spanning its namesake strait", medium: "Famous orange suspension bridge in San Francisco", hard: "SF orange bridge", answer: "Golden Gate" },
+      { easy: "A hinged barrier that releases racehorses simultaneously at the start", medium: "Barrier releasing racehorses simultaneously", hard: "Racing barrier", answer: "Starting gate" },
+      { easy: "An airline employee who checks boarding passes at the terminal departure area", medium: "Airline employee checking boarding passes", hard: "Airline checker", answer: "Gate agent" },
+      { easy: "An uninvited person who sneaks into a private event without a ticket", medium: "Uninvited person sneaking into a private event", hard: "Uninvited sneaker", answer: "Gate crasher" },
+      { easy: "A political scandal that led to President Nixon resignation in 1974", medium: "Scandal leading to Nixon resignation", hard: "Nixon scandal", answer: "Watergate" },
+      { easy: "Revenue collected from ticket sales at a venue or event", medium: "Revenue from ticket sales at a venue", hard: "Ticket revenue", answer: "Gate receipt" },
+      { easy: "A neoclassical monument in Berlin that once symbolized the Cold War divide", medium: "Berlin monument symbolizing the Cold War divide", hard: "Berlin monument", answer: "Brandenburg Gate" },
+      { easy: "A dramatic gorge along the Danube between Romania and Serbia", medium: "Danube gorge between Romania and Serbia", hard: "Danube gorge", answer: "Iron Gate" },
+      { easy: "The co-founder of Microsoft and one of the world wealthiest philanthropists", medium: "Microsoft co-founder and philanthropist", hard: "Microsoft co-founder", answer: "Bill Gates" },
+      { easy: "A narrow turbulent passage in the East River of New York City", medium: "Narrow turbulent East River passage in NYC", hard: "NYC river passage", answer: "Hell Gate" }
+    ]
+  },
+
+  // --- Card 66: CELL ---
+  {
+    buzzword: "CELL",
+    category: "Science & Math",
+    phrases: [
+      { easy: "The rigid outer layer surrounding a plant structural unit providing support", medium: "Rigid outer layer supporting a plant structure", hard: "Plant rigid layer", answer: "Cell wall" },
+      { easy: "The control center containing genetic material inside a biological unit", medium: "Control center with genetic material", hard: "Genetic control center", answer: "Cell nucleus" },
+      { easy: "The thin boundary layer regulating what enters and exits a biological unit", medium: "Thin boundary regulating entry and exit", hard: "Boundary regulator", answer: "Cell membrane" },
+      { easy: "A photovoltaic device converting sunlight directly into electricity", medium: "Photovoltaic device converting sunlight to electricity", hard: "Sunlight converter", answer: "Solar cell" },
+      { easy: "The process where one biological unit splits into two identical daughters", medium: "One biological unit splitting into two daughters", hard: "Unit splitting", answer: "Cell division" },
+      { easy: "The scientific study of life basic structural and functional units", medium: "Scientific study of life basic units", hard: "Life-units study", answer: "Cell biology" },
+      { easy: "A spreadsheet location identified by its row and column coordinates", medium: "Spreadsheet location at row-column coordinates", hard: "Spreadsheet location", answer: "Cell reference" },
+      { easy: "A white blood defender that engulfs pathogens as part of the defensive response", medium: "White defender engulfing pathogens for defense", hard: "Pathogen engulfer", answer: "Immune cell" },
+      { easy: "The smallest repeating pattern in a crystal lattice framework", medium: "Smallest repeating pattern in a crystal lattice", hard: "Crystal repeating element", answer: "Unit cell" },
+      { easy: "An electrochemical device producing electricity from hydrogen and oxygen", medium: "Electrochemical device producing electricity from hydrogen", hard: "Hydrogen power device", answer: "Fuel cell" }
+    ]
+  },
+
+  // --- Card 67: SNOW ---
+  {
+    buzzword: "SNOW",
+    category: "Nature & Weather",
+    phrases: [
+      { easy: "A vehicle with a front blade for clearing roads after a winter storm", medium: "Vehicle with blade for clearing winter roads", hard: "Road-clearing vehicle", answer: "Snowplow" },
+      { easy: "A packed sphere of frozen precipitation for throwing at friends", medium: "Packed frozen sphere for throwing", hard: "Frozen sphere", answer: "Snowball" },
+      { easy: "A stacked figure of frozen precipitation with a carrot nose and top hat", medium: "Stacked frozen figure with carrot nose and hat", hard: "Frozen figure", answer: "Snowman" },
+      { easy: "A severe weather event with heavy frozen precipitation and strong winds", medium: "Severe event with heavy frozen precipitation", hard: "Severe winter event", answer: "Snowstorm" },
+      { easy: "A unique six-branched crystal of frozen water falling from clouds", medium: "Unique six-branched frozen crystal", hard: "Six-branched crystal", answer: "Snowflake" },
+      { easy: "A treaded vehicle for traveling over deep frozen terrain in winter", medium: "Treaded vehicle for deep frozen terrain", hard: "Treaded winter vehicle", answer: "Snowmobile" },
+      { easy: "An athlete who glides down alpine slopes on a single wide plank", medium: "Athlete gliding down slopes on a wide plank", hard: "Alpine plank rider", answer: "Snowboarder" },
+      { easy: "A rare spotted big cat native to the mountains of Central Asia", medium: "Rare spotted big cat of Central Asian mountains", hard: "Asian mountain cat", answer: "Snow leopard" },
+      { easy: "An impression made by lying on fresh frozen ground and moving limbs outward", medium: "Impression made by lying on fresh frozen ground", hard: "Ground impression", answer: "Snow angel" },
+      { easy: "A school closure due to heavy winter weather — every kid wish", medium: "School closure due to heavy winter weather", hard: "School closure", answer: "Snow day" }
+    ]
+  },
+
+  // --- Card 68: RING ---
+  {
+    buzzword: "RING",
+    category: "Pop Culture & Media",
+    phrases: [
+      { easy: "Tolkien epic about a powerful circular artifact that must be destroyed", medium: "Tolkien epic about a powerful circular artifact", hard: "Tolkien artifact epic", answer: "Lord of the Rings" },
+      { easy: "A young person who carries the ceremonial bands down the aisle at a wedding", medium: "Ceremonial band carrier at a wedding", hard: "Wedding carrier", answer: "Ring bearer" },
+      { easy: "A 2002 horror film about a cursed videotape that kills viewers in seven days", medium: "2002 horror about a cursed videotape", hard: "Cursed videotape horror", answer: "The Ring" },
+      { easy: "An auditory signal on a phone alerting you to an incoming call", medium: "Phone auditory signal for incoming calls", hard: "Phone alert", answer: "Ring tone" },
+      { easy: "A precious metal band given at a marriage proposal", medium: "Precious metal band given at a proposal", hard: "Proposal band", answer: "Engagement ring" },
+      { easy: "A roped square where boxers compete in championship bouts", medium: "Roped square where boxers compete", hard: "Pugilism arena", answer: "Boxing ring" },
+      { easy: "A covert network of agents operating within an organization for intelligence", medium: "Covert agent network within an organization", hard: "Covert agent network", answer: "Spy ring" },
+      { easy: "The performer who introduces acts and keeps the audience engaged at a circus", medium: "Performer introducing circus acts", hard: "Circus host", answer: "Ringmaster" },
+      { easy: "A fungal skin infection that creates a circular red rash on the body", medium: "Fungal infection creating a circular red rash", hard: "Circular rash", answer: "Ringworm" },
+      { easy: "A jeweled emblem awarded to winners of a major sports title", medium: "Jeweled emblem for title winners", hard: "Title emblem", answer: "Championship ring" }
+    ]
+  },
+
+  // --- Card 69: NAIL ---
+  {
+    buzzword: "NAIL",
+    category: "Everyday Idioms",
+    phrases: [
+      { easy: "A colored lacquer applied to fingertips for cosmetic decoration in many shades", medium: "Colored lacquer for fingertip decoration", hard: "Fingertip lacquer", answer: "Nail polish" },
+      { easy: "An abrasive stick for smoothing and shaping keratin edges on fingers", medium: "Abrasive stick for smoothing keratin edges", hard: "Keratin smoother", answer: "Nail file" },
+      { easy: "A small cutting tool for trimming keratin plates on fingers and toes", medium: "Cutting tool for trimming keratin plates", hard: "Keratin trimmer", answer: "Nail clipper" },
+      { easy: "A pneumatically powered tool that drives metal fasteners into wood rapidly", medium: "Pneumatic tool driving fasteners rapidly", hard: "Pneumatic fastener tool", answer: "Nail gun" },
+      { easy: "An establishment providing manicures and pedicures for clients", medium: "Establishment providing manicures and pedicures", hard: "Manicure establishment", answer: "Nail salon" },
+      { easy: "The skin beneath the hard keratin plate on each finger", medium: "Skin beneath the keratin plate on a finger", hard: "Keratin underlayer", answer: "Nail bed" },
+      { easy: "A person who chews on their fingertips when feeling anxious or nervous", medium: "Person chewing fingertips when anxious", hard: "Anxious chewer", answer: "Nail biter" },
+      { easy: "Creative decorative designs painted onto keratin plates by a technician", medium: "Decorative designs painted on keratin plates", hard: "Keratin decoration", answer: "Nail art" },
+      { easy: "To describe or identify something with perfect accuracy and precision", medium: "Describe something with perfect accuracy", hard: "Perfect description", answer: "Hit the nail on the head" },
+      { easy: "To finalize or secure an agreement firmly so it cannot be reversed", medium: "Finalize an agreement firmly", hard: "Finalize firmly", answer: "Nail down" }
+    ]
+  },
+
+  // --- Card 70: DRUM ---
+  {
+    buzzword: "DRUM",
+    category: "Music (2000+)",
+    phrases: [
+      { easy: "An electronic device producing percussion sounds for studio recordings", medium: "Electronic device producing percussion sounds", hard: "Electronic percussion", answer: "Drum machine" },
+      { easy: "A collection of percussion instruments arranged around a seated player", medium: "Percussion collection arranged around a player", hard: "Percussion collection", answer: "Drum kit" },
+      { easy: "A full arrangement of shells cymbals and pedals for a rock or jazz player", medium: "Full arrangement of shells and cymbals for playing", hard: "Full percussion set", answer: "Drum set" },
+      { easy: "A showcasing passage where the percussionist plays alone to demonstrate skill", medium: "Passage where percussionist plays alone", hard: "Unaccompanied passage", answer: "Drum solo" },
+      { easy: "A rapid building rhythm played on a snare before a big announcement", medium: "Rapid building rhythm before a big announcement", hard: "Rapid building rhythm", answer: "Drum roll" },
+      { easy: "The repeating rhythmic pattern forming the foundation of a music track", medium: "Repeating rhythmic foundation of a track", hard: "Rhythmic foundation", answer: "Drum beat" },
+      { easy: "A short recorded percussion segment repeated as a backing track in production", medium: "Recorded percussion segment repeated as backing", hard: "Repeated percussion clip", answer: "Drum loop" },
+      { easy: "A cylinder with wires stretched across the bottom for a sharp crack sound", medium: "Cylinder with wires for a sharp crack", hard: "Wired cylinder", answer: "Snare drum" },
+      { easy: "A large deep-toned instrument played with a foot pedal in marching bands", medium: "Large deep-toned instrument with foot pedal", hard: "Deep-toned instrument", answer: "Bass drum" },
+      { easy: "An informal gathering where people play hand percussion together in a round formation", medium: "Gathering to play hand percussion together", hard: "Percussion gathering", answer: "Drum circle" }
+    ]
   }
 ];
 
