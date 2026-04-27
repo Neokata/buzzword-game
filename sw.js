@@ -1,4 +1,4 @@
-const CACHE_NAME = 'buzzword-v3';
+const CACHE_NAME = 'buzzword-v4';
 const ASSETS = [
   './index.html',
   './styles.css',
@@ -59,16 +59,28 @@ self.addEventListener('fetch', e => {
     return;
   }
 
-  // Navigation requests → cached index.html (SPA support)
+  // Navigation requests → network-first with cache fallback
   if (e.request.mode === 'navigate') {
     e.respondWith(
-      caches.match('./index.html').then(cached => cached || fetch(e.request))
+      fetch(e.request)
+        .then(response => {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put('./index.html', clone));
+          return response;
+        })
+        .catch(() => caches.match('./index.html'))
     );
     return;
   }
 
-  // App shell assets → cache-first
+  // App shell assets → network-first so updates propagate
   e.respondWith(
-    caches.match(e.request).then(cached => cached || fetch(e.request))
+    fetch(e.request)
+      .then(response => {
+        const clone = response.clone();
+        caches.open(CACHE_NAME).then(cache => cache.put(e.request, clone));
+        return response;
+      })
+      .catch(() => caches.match(e.request))
   );
 });
