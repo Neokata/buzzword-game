@@ -690,6 +690,22 @@ html, body {
 .clue-answer.revealed {
   color: var(--correct);
 }
+.clue-answer.tap-to-reveal {
+  color: transparent;
+  background: var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: color 0.2s, background 0.2s;
+}
+.clue-answer.tap-to-reveal.revealed {
+  color: var(--correct);
+  background: transparent;
+  border-radius: 4px;
+  padding: 2px 8px;
+}
 
 /* Play Footer */
 .play-footer {

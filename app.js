@@ -421,9 +421,13 @@ function renderClues() {
     }
 
     let answerHtml = '';
+    const answered = result === 'correct' || result === 'stolen';
     if (state.showAnswers) {
-      const answered = result === 'correct' || result === 'stolen';
       answerHtml = `<div class="clue-answer${answered ? ' revealed' : ''}">${phrase.answer}</div>`;
+    } else {
+      // Hidden answers: tap to reveal temporarily
+      const tapClass = answered ? ' revealed' : ' tap-to-reveal';
+      answerHtml = `<div class="clue-answer${tapClass}" onclick="this.classList.toggle('revealed')">${phrase.answer}</div>`;
     }
 
     div.innerHTML = `
@@ -488,11 +492,17 @@ function renderStealPrompt() {
   const clueText = phrase[state.difficulty] || phrase.easy;
   document.getElementById('steal-clue-text').textContent = clueText;
   const stealAnswerEl = document.getElementById('steal-answer-text');
-  if (state.showAnswers && stealAnswerEl) {
-    stealAnswerEl.textContent = phrase.answer;
-    stealAnswerEl.style.display = '';
-  } else if (stealAnswerEl) {
-    stealAnswerEl.style.display = 'none';
+  if (stealAnswerEl) {
+    if (state.showAnswers) {
+      stealAnswerEl.textContent = phrase.answer;
+      stealAnswerEl.style.display = '';
+      stealAnswerEl.classList.remove('tap-to-reveal');
+    } else {
+      stealAnswerEl.textContent = phrase.answer;
+      stealAnswerEl.style.display = '';
+      stealAnswerEl.classList.add('tap-to-reveal');
+      stealAnswerEl.classList.remove('revealed');
+    }
   }
   document.getElementById('steal-buzzword').textContent = state.currentCard.buzzword;
   overlay.style.display = 'flex';
