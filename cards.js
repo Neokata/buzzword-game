@@ -1265,6 +1265,278 @@ const CARDS = [
       { easy: "A large deep-toned instrument played with a foot pedal in marching bands", medium: "Large deep-toned instrument with foot pedal", hard: "Deep-toned instrument", answer: "Bass drum" },
       { easy: "An informal gathering where people play hand percussion together in a round formation", medium: "Gathering to play hand percussion together", hard: "Percussion gathering", answer: "Drum circle" }
     ]
+  },
+
+  // ===== BATCH 5: Cards 71–85 =====
+
+  // --- Card 71: FIRE ---
+  {
+    buzzword: "FIRE",
+    category: "Science & Math",
+    phrases: [
+      { easy: "The rapid oxidation process that releases heat and light from a combustible material", medium: "Rapid oxidation releasing heat and light", hard: "Oxidation process", answer: "Fire triangle" },
+      { easy: "A safety device that sprays water to suppress flames in a commercial building", medium: "Safety device spraying water to suppress flames", hard: "Flame suppressor", answer: "Fire sprinkler" },
+      { easy: "The temperature at which a substance ignites without an external spark", medium: "Temperature where a substance ignites without a spark", hard: "Ignition temperature", answer: "Fire point" },
+      { easy: "A reaction where oxygen combines with another substance producing intense heat and light", medium: "Oxygen combining with another substance producing heat", hard: "Heat-producing reaction", answer: "Fire chemistry" },
+      { easy: "A heat-resistant barrier between a vehicle engine and the passenger compartment", medium: "Heat barrier between engine and cabin", hard: "Engine heat barrier", answer: "Firewall" },
+      { easy: "A professional who investigates the origin and cause of destructive blazes", medium: "Professional investigating blaze origins", hard: "Blaze investigator", answer: "Fire marshal" },
+      { easy: "The intentional use of controlled burns to manage wildland habitats and vegetation", medium: "Controlled burns for managing wildland habitats", hard: "Habitat burn method", answer: "Fire ecology" },
+      { easy: "A measure of how easily a material will ignite and sustain combustion", medium: "Measure of how easily material ignites", hard: "Ignition measure", answer: "Fire resistance" },
+      { easy: "A practiced evacuation procedure that prepares building occupants for emergency escape", medium: "Practiced evacuation procedure for emergency escape", hard: "Evacuation practice", answer: "Fire drill" },
+      { easy: "A safety classification system for building materials based on their combustion behavior", medium: "Safety classification for building combustion behavior", hard: "Combustion classification", answer: "Fire rating" }
+    ]
+  },
+
+  // --- Card 72: WEB ---
+  {
+    buzzword: "WEB",
+    category: "Tech & Internet",
+    phrases: [
+      { easy: "A system of interlinked documents accessed via browsers on the internet", medium: "Interlinked documents accessed via browsers", hard: "Internet documents", answer: "World Wide Web" },
+      { easy: "A program that automatically browses and indexes pages across the internet", medium: "Program that browses and indexes pages", hard: "Indexing program", answer: "Web crawler" },
+      { easy: "A person who creates and maintains internet sites and online applications", medium: "Person creating internet sites and applications", hard: "Site creator", answer: "Web developer" },
+      { easy: "The address that identifies a specific page on the internet", medium: "Address identifying a specific online page", hard: "Online address", answer: "Web URL" },
+      { easy: "A software application that hosts and delivers pages to browsers over HTTP", medium: "Host delivering pages over HTTP", hard: "Page-hosting application", answer: "Web server" },
+      { easy: "A browser tool for saving and organizing favorite online destinations", medium: "Browser tool for saving favorite destinations", hard: "Favorite saver", answer: "Web bookmark" },
+      { easy: "A storage area in the browser that holds temporary copies of visited pages", medium: "Browser storage holding temporary page copies", hard: "Temporary page storage", answer: "Web cache" },
+      { easy: "The visual arrangement and aesthetic styling of pages on the internet", medium: "Visual arrangement of internet pages", hard: "Online layout", answer: "Web design" },
+      { easy: "A platform for publishing diary-style entries accessible to the public", medium: "Platform for publishing diary-style entries", hard: "Online journal", answer: "Weblog" },
+      { easy: "A lookup platform that helps users find information across the internet", medium: "Lookup platform for finding online information", hard: "Online lookup platform", answer: "Web search" }
+    ]
+  },
+
+  // --- Card 73: OCEAN ---
+  {
+    buzzword: "OCEAN",
+    category: "Geography",
+    phrases: [
+      { easy: "The vast body of saltwater between Africa and the Americas", medium: "Saltwater body between Africa and the Americas", hard: "Intercontinental body", answer: "Atlantic Ocean" },
+      { easy: "The largest and deepest saltwater body covering the area between Asia and the Americas", medium: "Largest saltwater body between Asia and Americas", hard: "Largest saltwater body", answer: "Pacific Ocean" },
+      { easy: "The saltwater body surrounding Antarctica and extending toward Africa and Australia", medium: "Saltwater body surrounding Antarctica", hard: "Antarctic body", answer: "Indian Ocean" },
+      { easy: "The frozen saltwater body centered on the North Pole", medium: "Frozen saltwater body at the North Pole", hard: "Polar body", answer: "Arctic Ocean" },
+      { easy: "The global system of currents circulating warm and cold water across the planet", medium: "Global system circulating warm and cold water", hard: "Current system", answer: "Ocean conveyor" },
+      { easy: "The vast saltwater body that surrounds the Antarctic continent on all sides", medium: "Saltwater body surrounding Antarctica", hard: "Far-south body", answer: "Southern Ocean" },
+      { easy: "The average downward extent of the global saltwater bodies approximately 12000 feet", medium: "Average downward extent of global saltwater at 12000 feet", hard: "Downward extent measure", answer: "Ocean depth" },
+      { easy: "An underwater crest where tectonic plates are spreading apart on the seafloor", medium: "Underwater crest where plates spread apart", hard: "Underwater crest", answer: "Ocean ridge" },
+      { easy: "The top warm layer of saltwater heated by sunlight about 600 feet deep", medium: "Top warm layer heated by sunlight", hard: "Warm top layer", answer: "Ocean surface" },
+      { easy: "A vast rotating current system that moves water in a circular pattern", medium: "Vast rotating current moving in a circle", hard: "Rotating current", answer: "Ocean gyre" }
+    ]
+  },
+
+  // --- Card 74: WHEEL ---
+  {
+    buzzword: "WHEEL",
+    category: "Everyday Idioms",
+    phrases: [
+      { easy: "The most important person in charge of directing a large organization", medium: "Most important person directing an organization", hard: "Top director", answer: "Big wheel" },
+      { easy: "To recreate something that already exists and works perfectly fine", medium: "Recreating something that already works", hard: "Redundant creation", answer: "Reinvent the wheel" },
+      { easy: "To negotiate and bargain aggressively to get the best possible outcome in business", medium: "Negotiating and bargaining aggressively for advantage", hard: "Aggressive bargaining", answer: "Wheel and deal" },
+      { easy: "A circular control mechanism used to guide the direction of an automobile", medium: "Circular control for guiding vehicle direction", hard: "Directional control", answer: "Steering wheel" },
+      { easy: "The rubber and rim assembly that rotates on a vehicle axle", medium: "Rubber and rim rotating on an axle", hard: "Rotating assembly", answer: "Wheel and tire" },
+      { easy: "A chair with circular frames used by people who cannot walk", medium: "Chair with frames for non-walking individuals", hard: "Mobility chair", answer: "Wheelchair" },
+      { easy: "A single-wheeled handcart used for moving heavy loads in gardens and construction sites", medium: "Single-wheeled handcart for moving heavy loads", hard: "Garden handcart", answer: "Wheelbarrow" },
+      { easy: "A mechanism with interlocking teeth that transfers rotational force", medium: "Mechanism with interlocking teeth transferring rotation", hard: "Toothed mechanism", answer: "Wheel gear" },
+      { easy: "A large vertical rotating device at a fairground for scenic rides", medium: "Large vertical rotating fairground device", hard: "Fairground rotation", answer: "Ferris wheel" },
+      { easy: "To turn rapidly in a different direction often in surprise or anger", medium: "Turning rapidly in a new direction with surprise", hard: "Sudden pivot", answer: "Wheel around" }
+    ]
+  },
+
+  // --- Card 75: WOLF ---
+  {
+    buzzword: "WOLF",
+    category: "Nature & Weather",
+    phrases: [
+      { easy: "A person who pretends to be harmless but actually has malicious intent", medium: "Person pretending to be harmless but malicious", hard: "Hidden predator", answer: "Wolf in sheep clothing" },
+      { easy: "A person who prefers to be solitary rather than part of a group", medium: "Person preferring solitude over groups", hard: "Solitary person", answer: "Lone wolf" },
+      { easy: "To frantically call for help when there is no actual danger until nobody believes you", medium: "Calling for help with no danger until ignored", hard: "False alarm call", answer: "Cry wolf" },
+      { easy: "The ancestral wild canine from which domestic dogs descended", medium: "Ancestral wild canine of domestic dogs", hard: "Wild canine ancestor", answer: "Gray wolf" },
+      { easy: "A hunting arachnid that chases prey on the ground rather than spinning a web to trap it", medium: "Hunting arachnid that chases prey on the ground", hard: "Ground-hunting arachnid", answer: "Wolf spider" },
+      { easy: "A group of wild canines hunting together across tundra and forests", medium: "Wild canines hunting together across tundra", hard: "Hunting canine group", answer: "Wolf pack" },
+      { easy: "The long mournful wail of a wild canine on a winter night", medium: "Long mournful wail of a wild canine", hard: "Canine wail", answer: "Wolf howl" },
+      { easy: "A large wild canine native to North America and Eurasia forests", medium: "Large wild canine of American and Eurasian forests", hard: "Forest wild canine", answer: "Timber wolf" },
+      { easy: "A ravenous appetite that feels impossible to satisfy", medium: "Ravenous appetite impossible to satisfy", hard: "Unsatisfiable appetite", answer: "Wolf hunger" },
+      { easy: "A distinctive two-toned sound made to express admiration or attraction to someone passing by", medium: "Two-toned sound expressing attraction to someone", hard: "Two-toned signal", answer: "Wolf whistle" }
+    ]
+  },
+
+  // --- Card 76: GLASS ---
+  {
+    buzzword: "GLASS",
+    category: "Science & Math",
+    phrases: [
+      { easy: "A transparent amorphous solid made by cooling molten silica without crystallization", medium: "Transparent solid from cooled molten silica", hard: "Amorphous solid", answer: "Glass formation" },
+      { easy: "An enlarging optical instrument used to examine small objects in detail", medium: "Enlarging instrument for examining small objects", hard: "Enlarging instrument", answer: "Magnifying glass" },
+      { easy: "The temperature at which an amorphous solid changes from brittle to rubbery", medium: "Temperature where amorphous solid becomes rubbery", hard: "Change temperature", answer: "Glass transition" },
+      { easy: "A strong composite material made by embedding reinforced strands in a resin matrix", medium: "Strong composite with reinforced strands in resin", hard: "Reinforced composite", answer: "Fiberglass" },
+      { easy: "A curved piece of transparent material that bends light rays to focus or spread an image", medium: "Curved transparent piece that bends light to focus", hard: "Light-bending piece", answer: "Glass lens" },
+      { easy: "Thin flat transparent panels used in windows and displays", medium: "Thin flat transparent panels for windows", hard: "Transparent panel", answer: "Glass sheet" },
+      { easy: "A decorative art form where molten material is shaped by exhaling through a tube", medium: "Art shaping molten material by exhaling through a tube", hard: "Blown art form", answer: "Glass blowing" },
+      { easy: "The invisible limit that prevents certain groups from advancing to top leadership positions", medium: "Barrier preventing advancement to top positions", hard: "Advancement barrier", answer: "Glass ceiling" },
+      { easy: "Recycled crushed material used as raw feedstock for new transparent products", medium: "Recycled crushed material for new products", hard: "Recycled feedstock", answer: "Glass recycling" },
+      { easy: "A transparent enclosure for keeping small plants warm and protected", medium: "Transparent enclosure protecting small plants", hard: "Plant enclosure", answer: "Glass greenhouse" }
+    ]
+  },
+
+  // --- Card 77: FLAG ---
+  {
+    buzzword: "FLAG",
+    category: "Geography",
+    phrases: [
+      { easy: "The Stars and Stripes banner with 50 stars and 13 stripes representing the USA", medium: "Stars and Stripes with 50 stars and 13 stripes", hard: "US banner", answer: "American flag" },
+      { easy: "A signal banner with a skull and crossbones flown by pirates at sea", medium: "Skull and crossbones pirate banner", hard: "Pirate banner", answer: "Jolly Roger flag" },
+      { easy: "A pale banner symbolizing surrender or a request for truce in battle", medium: "Pale banner symbolizing surrender or truce", hard: "Surrender banner", answer: "White flag" },
+      { easy: "The Games banner with five interlocking rings on a white background", medium: "Games banner with five interlocking rings", hard: "Games banner", answer: "Olympic flag" },
+      { easy: "A warning signal indicating hazardous ocean conditions at a beach", medium: "Warning signal for hazardous beach conditions", hard: "Beach warning", answer: "Red flag" },
+      { easy: "A patterned black and white banner waved at the end of a car race", medium: "Patterned banner ending a car race", hard: "Race-ending banner", answer: "Checkered flag" },
+      { easy: "A half-masted banner flown low on a pole to signal mourning or respect", medium: "Banner flown low on a pole for mourning", hard: "Mourning banner", answer: "Half-staff flag" },
+      { easy: "The national banner of the United Kingdom combining red white and blue crosses", medium: "UK banner combining red white and blue crosses", hard: "UK banner", answer: "Union Jack flag" },
+      { easy: "A rectangular banner with a maple leaf on a red and white background for Canada", medium: "Maple leaf banner on red and white background", hard: "Northern banner", answer: "Canadian flag" },
+      { easy: "A warning sign that alerts referees to a rules violation in football", medium: "Warning sign alerting referees to a violation", hard: "Violation alert", answer: "Penalty flag" }
+    ]
+  },
+
+  // --- Card 78: SONG ---
+  {
+    buzzword: "SONG",
+    category: "Music (2000+)",
+    phrases: [
+      { easy: "The opening track of a musical album that sets the tone for the whole record", medium: "Opening track setting the tone for an album", hard: "Opening track", answer: "Lead song" },
+      { easy: "A track that becomes enormously popular and defines an artist career", medium: "Enormously popular track defining an artist", hard: "Signature track", answer: "Hit song" },
+      { easy: "A well-known traditional melody associated with a particular nation or group", medium: "Traditional melody associated with a nation", hard: "National melody", answer: "Folk song" },
+      { easy: "A final appearance or performance given just before retirement or departure from a role", medium: "Final performance before retirement or departure", hard: "Final appearance", answer: "Swan song" },
+      { easy: "A repeated section of a track that contains the main melody and lyrics", medium: "Repeated section with main melody and lyrics", hard: "Repeated melody", answer: "Song chorus" },
+      { easy: "A collaborative track featuring two or more artists performing together", medium: "Collaborative track with multiple artists", hard: "Collaborative track", answer: "Duet song" },
+      { easy: "A gentle soothing melody played to help a child fall asleep at bedtime", medium: "Gentle melody to help a child fall asleep", hard: "Bedtime melody", answer: "Lullaby song" },
+      { easy: "A track that tops the Billboard charts and receives extensive radio play", medium: "Track topping the Billboard charts", hard: "Chart-topping track", answer: "Number one song" },
+      { easy: "The written lyrics and notation that document a musical composition", medium: "Written lyrics and musical notation", hard: "Written composition", answer: "Song sheet" },
+      { easy: "A writer who creates lyrics and melodies for recording artists", medium: "Writer creating lyrics and melodies", hard: "Melody writer", answer: "Songwriter" }
+    ]
+  },
+
+  // --- Card 79: COIN ---
+  {
+    buzzword: "COIN",
+    category: "Everyday Idioms",
+    phrases: [
+      { easy: "To invent a new word or expression that becomes widely adopted", medium: "Inventing a new widely-adopted word or expression", hard: "Invent an expression", answer: "Coin a phrase" },
+      { easy: "Two choices where both options lead to the same outcome", medium: "Two choices leading to the same outcome", hard: "Same outcome choices", answer: "Two sides of the same coin" },
+      { easy: "A small pouch with a clasp or zipper used to hold loose change and small items", medium: "Small pouch with a clasp for holding change", hard: "Change pouch", answer: "Coin purse" },
+      { easy: "A device that sorts and counts circular currency by denomination", medium: "Device sorting and counting circular currency", hard: "Currency tabulator", answer: "Coin counter" },
+      { easy: "A rare or valuable piece of currency sought by collectors and enthusiasts", medium: "Rare valuable piece sought by collectors", hard: "Collector piece", answer: "Coin collection" },
+      { easy: "The act of tossing a flat metal disc to decide between two options by which face lands up", medium: "Tossing a flat disc to decide between options", hard: "Toss decision", answer: "Coin flip" },
+      { easy: "A vending device that accepts circular currency in exchange for goods", medium: "Vending device accepting circular currency for goods", hard: "Currency vending", answer: "Coin machine" },
+      { easy: "A decorative token placed inside a clear acrylic block as a keepsake", medium: "Decorative token in a clear acrylic keepsake block", hard: "Keepsake token", answer: "Coin souvenir" },
+      { easy: "A new type of digital currency that operates on blockchain technology", medium: "Digital currency operating on blockchain technology", hard: "Digital currency", answer: "Altcoin" },
+      { easy: "To return more money than owed when someone pays with a larger amount", medium: "Returning excess money when overpaid", hard: "Excess return", answer: "Coin change" }
+    ]
+  },
+
+  // --- Card 80: BLOOD ---
+  {
+    buzzword: "BLOOD",
+    category: "Body & Health",
+    phrases: [
+      { easy: "A classification system for the different marker proteins found on red fluid cell surfaces", medium: "Classification of marker proteins on red fluid cells", hard: "Marker classification", answer: "Blood type" },
+      { easy: "The force exerted by circulating fluid against the walls of arteries", medium: "Force of circulating fluid against artery walls", hard: "Artery tension", answer: "Blood pressure" },
+      { easy: "A laboratory analysis that examines the cellular and chemical components of circulating fluid", medium: "Lab analysis examining circulating fluid components", hard: "Fluid analysis", answer: "Blood test" },
+      { easy: "A hereditary substance that determines the compatibility of transfusions between people", medium: "Hereditary substance determining transfusion compatibility", hard: "Transfusion marker", answer: "Blood group" },
+      { easy: "A drainage of circulating red fluid from the body due to injury or surgery", medium: "Drainage of circulating red fluid from injury", hard: "Fluid drainage", answer: "Blood loss" },
+      { easy: "Cells in the circulating fluid that clump together to form clots and stop bleeding", medium: "Cells forming clots to stop bleeding", hard: "Clotting cells", answer: "Blood platelet" },
+      { easy: "A gift of red fluid given voluntarily to help patients in hospitals", medium: "Voluntary red fluid gift for hospital patients", hard: "Fluid contribution", answer: "Blood donation" },
+      { easy: "An inherited condition causing red fluid corpuscles to deform into a crescent shape", medium: "Inherited condition deforming red fluid corpuscles", hard: "Corpuscle deformity", answer: "Blood disorder" },
+      { easy: "The protein in red fluid corpuscles responsible for transporting oxygen throughout the body", medium: "Protein transporting oxygen in red fluid corpuscles", hard: "Oxygen carrier", answer: "Blood cell" },
+      { easy: "A tubular structure that carries circulating red fluid throughout the body to deliver oxygen", medium: "Tubular structure carrying red fluid throughout the body", hard: "Circulation tube", answer: "Blood vessel" }
+    ]
+  },
+
+  // --- Card 81: STAR ---
+  {
+    buzzword: "STAR",
+    category: "Science & Math",
+    phrases: [
+      { easy: "The process by which dense clouds of gas and dust collapse under gravity to create new luminous bodies", medium: "Process of gas clouds collapsing under gravity to create luminous bodies", hard: "Luminous-body creation", answer: "Star formation" },
+      { easy: "The closest stellar object to Earth providing heat and daylight", medium: "Closest stellar object providing heat and daylight", hard: "Nearest stellar object", answer: "Sun star" },
+      { easy: "A bright fixed point in the night sky used for centuries as a navigational reference for travelers", medium: "Bright fixed point used for navigation in the night sky", hard: "Navigation reference", answer: "Pole star" },
+      { easy: "A brief streak of light across the night sky caused by a small space rock burning up in the atmosphere", medium: "Brief streak of light from a space rock burning up", hard: "Atmospheric streak", answer: "Shooting star" },
+      { easy: "A group of stellar objects gravitationally bound together in a spiral or elliptical shape", medium: "Gravitationally bound stellar group", hard: "Stellar group", answer: "Star cluster" },
+      { easy: "The process where hydrogen fuses into helium releasing enormous energy inside a stellar core", medium: "Hydrogen fusing into helium releasing energy", hard: "Merging process", answer: "Star power" },
+      { easy: "A small cool stellar remnant left after a red giant exhausts its nuclear fuel", medium: "Small cool remnant after a red giant exhausts fuel", hard: "Cool remnant", answer: "White dwarf star" },
+      { easy: "A rapidly spinning stellar remnant that emits beams of radiation from its poles", medium: "Rapidly spinning remnant emitting radiation beams", hard: "Spinning remnant", answer: "Neutron star" },
+      { easy: "A printed or digital map showing the positions and names of celestial bodies in the night sky", medium: "Map showing positions and names of celestial bodies", hard: "Sky map", answer: "Star chart" },
+      { easy: "A pattern of stellar objects recognized by astronomers in the night sky", medium: "Pattern of stellar objects in the night sky", hard: "Sky pattern", answer: "Star map" }
+    ]
+  },
+
+  // --- Card 82: CROWD ---
+  {
+    buzzword: "CROWD",
+    category: "Everyday Idioms",
+    phrases: [
+      { easy: "The practice of raising funds from a large number of people via the internet", medium: "Raising funds from many people via the internet", hard: "Online fundraising", answer: "Crowdfunding" },
+      { easy: "The collective behavior of a large gathering that turns disorderly or destructive", medium: "Disorderly behavior of a large gathering", hard: "Disorderly gathering", answer: "Crowd riot" },
+      { easy: "A professional who manages and directs large gatherings at events and venues", medium: "Professional managing large gatherings at events", hard: "Gathering manager", answer: "Crowd control" },
+      { easy: "The psychological tendency for people to follow what the majority is doing", medium: "Following what the majority does", hard: "Majority following", answer: "Crowd mentality" },
+      { easy: "The number of people attending a sports or entertainment event", medium: "Number of people attending an event", hard: "Attendance number", answer: "Crowd size" },
+      { easy: "A feeling of anxiety caused by being in a densely packed public space", medium: "Anxiety from being in a densely packed space", hard: "Dense-space anxiety", answer: "Crowd phobia" },
+      { easy: "A technique of gathering information from many contributors to solve a problem", medium: "Gathering information from many to solve a problem", hard: "Mass problem-solving", answer: "Crowdsourcing" },
+      { easy: "The pleasant experience of sharing excitement with others at a live event", medium: "Sharing excitement with others at a live event", hard: "Shared excitement", answer: "Crowd energy" },
+      { easy: "A spontaneous and energetic collective vocalization from a gathered audience", medium: "Spontaneous vocalization from a gathered audience", hard: "Audience vocalization", answer: "Crowd roar" },
+      { easy: "To lie on your back and be passed over the heads of concertgoers across a packed venue", medium: "Being passed over heads of concertgoers at a packed venue", hard: "Concert body-riding", answer: "Crowd surf" }
+    ]
+  },
+
+  // --- Card 83: PAPER ---
+  {
+    buzzword: "PAPER",
+    category: "Tech & Internet",
+    phrases: [
+      { easy: "A scholarly manuscript presenting original research submitted to a journal for review", medium: "Scholarly manuscript presenting original research", hard: "Research manuscript", answer: "Paper publication" },
+      { easy: "A sequence of documents and records that provide evidence of someone's activities or decisions", medium: "Sequence of documents providing evidence of activities", hard: "Documentary evidence", answer: "Paper trail" },
+      { easy: "The removable compartment inside a printer that holds blank sheets ready for printing", medium: "Removable printer compartment holding blank sheets", hard: "Printer sheet holder", answer: "Paper tray" },
+      { easy: "A device that cuts physical sheets to precise dimensions for printing", medium: "Device cutting physical sheets to precise dimensions", hard: "Sheet trimmer", answer: "Paper cutter" },
+      { easy: "A pre-printed document with blank fields that users fill out to apply or request something", medium: "Pre-printed document with blank fields to complete", hard: "Fill-in document", answer: "Paper form" },
+      { easy: "A small bent wire fastener used to hold loose sheets together without piercing them", medium: "Small bent wire fastener holding sheets together", hard: "Wire sheet fastener", answer: "Paper clip" },
+      { easy: "A daily or weekly publication containing articles about current events and opinion columns", medium: "Daily or weekly publication with current event articles", hard: "Current-events publication", answer: "Newspaper" },
+      { easy: "A folded aircraft made from a single sheet launched by hand for fun", medium: "Folded hand-launched aircraft from a single sheet", hard: "Folded aircraft", answer: "Paper airplane" },
+      { easy: "A decorative sheet used for covering gifts and packages", medium: "Decorative sheet for covering gifts", hard: "Covering sheet", answer: "Paper wrap" },
+      { easy: "The maximum width of a physical sheet that a printer can handle", medium: "Maximum sheet width a printer can handle", hard: "Printer width", answer: "Paper size" }
+    ]
+  },
+
+  // --- Card 84: STORM ---
+  {
+    buzzword: "STORM",
+    category: "Nature & Weather",
+    phrases: [
+      { easy: "An abnormal rise in coastal water level caused by strong winds and low pressure during severe weather", medium: "Abnormal coastal water rise from severe weather winds", hard: "Coastal water rise", answer: "Storm surge" },
+      { easy: "An underground shelter built near a house to provide protection from violent weather events", medium: "Underground shelter for protection from violent weather", hard: "Underground shelter", answer: "Storm cellar" },
+      { easy: "A severe electrical disturbance with lightning and heavy precipitation", medium: "Severe electrical disturbance with lightning", hard: "Electrical disturbance", answer: "Thunderstorm" },
+      { easy: "A sudden and overwhelming influx of water caused by heavy rainfall", medium: "Overwhelming water influx from heavy rainfall", hard: "Water influx", answer: "Storm drain" },
+      { easy: "An outer entrance barrier that provides an additional layer of protection against harsh weather and insulation", medium: "Outer entrance barrier providing protection against harsh weather", hard: "Weather barrier panel", answer: "Storm door" },
+      { easy: "A severe winter event with freezing rain and dangerously icy conditions", medium: "Winter event with freezing rain and icy conditions", hard: "Icy event", answer: "Ice storm" },
+      { easy: "A large-scale atmospheric disturbance over the open sea with strong winds", medium: "Atmospheric sea disturbance with strong winds", hard: "Marine disturbance", answer: "Storm front" },
+      { easy: "A period of intense public outrage or dispute over an issue", medium: "Intense public outrage or dispute", hard: "Public outrage", answer: "Storm of controversy" },
+      { easy: "A device that detects electrical discharges in the atmosphere", medium: "Device detecting atmospheric electrical discharges", hard: "Discharge detector", answer: "Storm tracker" },
+      { easy: "A protective underground bunker built to withstand severe weather events", medium: "Underground refuge for severe weather", hard: "Underground refuge", answer: "Storm shelter" }
+    ]
+  },
+
+  // --- Card 85: DIAMOND ---
+  {
+    buzzword: "DIAMOND",
+    category: "Sports & Games",
+    phrases: [
+      { easy: "The square infield area in the sport with four bases at each corner", medium: "Square sport infield with four bases", hard: "Pastime infield", answer: "Baseball diamond" },
+      { easy: "A playing card category marked by a red rhombus shape", medium: "Card category marked by a red rhombus", hard: "Red card category", answer: "Diamond suit" },
+      { easy: "The number one position on the Mohs scale of mineral durability", medium: "Number one on the Mohs durability scale", hard: "Hardest mineral", answer: "Diamond hardness" },
+      { easy: "A cut gem with 58 facets designed to maximize light reflection and brilliance", medium: "Cut gem with 58 facets for maximum brilliance", hard: "Faceted gem", answer: "Diamond cut" },
+      { easy: "A precious clear gemstone given at a marriage proposal or anniversary", medium: "Clear gemstone given at a proposal", hard: "Proposal gemstone", answer: "Diamond ring" },
+      { easy: "A method of evaluating a gem based on cut clarity color and carat weight", medium: "Evaluating a gem by cut clarity color and carat", hard: "Gem evaluation", answer: "Diamond grading" },
+      { easy: "A mark made on a playing piece in the red rhombus set", medium: "Mark on a playing piece in the red rhombus set", hard: "Red set mark", answer: "Diamond card" },
+      { easy: "The narrow elongated form of a rhombus used in design and heraldry", medium: "Narrow elongated rhombus form in design", hard: "Rhombus form", answer: "Diamond shape" },
+      { easy: "The process of extracting precious carbon crystals from deep underground mines", medium: "Extracting precious carbon crystals from mines", hard: "Crystal extraction", answer: "Diamond mining" },
+      { easy: "An artificial carbon crystal created in a research facility with identical properties", medium: "Research-created carbon crystal with identical properties", hard: "Facility-created crystal", answer: "Diamond lab" }
+    ]
   }
 ];
 
